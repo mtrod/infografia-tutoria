@@ -1,0 +1,2773 @@
+/* colors */
+.bg-grey-light {background-color: #F0F0F0;}
+.bg-white {background-color: #fff;}
+
+
+@font-face {
+  font-family: "icons";
+  src: url("https://guia-frontend.uoc.edu/UOC/GEFv2/assets/iconfonts/icons.woff2?v1.1.0") format("woff2"), url("https://guia-frontend.uoc.edu/UOC/GEFv2/assets/iconfonts/icons.woff?v1.1.0") format("woff"), url("../iconfonts/icons.ttf?v1.1.0") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 14, source/assets/scss/generated/_icons.scss */
+.icon, p.asterisc:before, .select--custom:before, .select--custom--dropdown .select--custom--dropdown__content:before, .custom-select::after {
+  font-family: "icons";
+  display: inline-block;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 34, source/assets/scss/generated/_icons.scss */
+.icon--access:before {
+  content: "\f101"; }
+
+/* line 39, source/assets/scss/generated/_icons.scss */
+.icon--alert-full:before {
+  content: "\f102"; }
+
+/* line 44, source/assets/scss/generated/_icons.scss */
+.icon--alert:before {
+  content: "\f103"; }
+
+/* line 49, source/assets/scss/generated/_icons.scss */
+.icon--arrow-big:before {
+  content: "\f104"; }
+
+/* line 54, source/assets/scss/generated/_icons.scss */
+.icon--arrow-down:before, .select--custom:before, .select--custom--dropdown .select--custom--dropdown__content:before {
+  content: "\f105"; }
+
+/* line 59, source/assets/scss/generated/_icons.scss */
+.icon--arrow-drop-down:before {
+  content: "\f106"; }
+
+/* line 64, source/assets/scss/generated/_icons.scss */
+.icon--arrow-drop-up:before {
+  content: "\f107"; }
+
+/* line 69, source/assets/scss/generated/_icons.scss */
+.icon--arrow-left-bar:before {
+  content: "\f1b2"; }
+
+/* line 74, source/assets/scss/generated/_icons.scss */
+.icon--arrow-left:before {
+  content: "\f108"; }
+
+/* line 79, source/assets/scss/generated/_icons.scss */
+.icon--arrow-right-bar:before {
+  content: "\f1b3"; }
+
+/* line 84, source/assets/scss/generated/_icons.scss */
+.icon--arrow-right:before {
+  content: "\f109"; }
+
+/* line 89, source/assets/scss/generated/_icons.scss */
+.icon--arrow-up:before {
+  content: "\f10a"; }
+
+/* line 94, source/assets/scss/generated/_icons.scss */
+.icon--ask-full:before {
+  content: "\f10b"; }
+
+/* line 99, source/assets/scss/generated/_icons.scss */
+.icon--ask:before {
+  content: "\f10c"; }
+
+/* line 104, source/assets/scss/generated/_icons.scss */
+.icon--asterisk:before, p.asterisc:before {
+  content: "\f10d"; }
+
+/* line 109, source/assets/scss/generated/_icons.scss */
+.icon--attachment:before {
+  content: "\f10e"; }
+
+/* line 114, source/assets/scss/generated/_icons.scss */
+.icon--backward:before {
+  content: "\f10f"; }
+
+/* line 119, source/assets/scss/generated/_icons.scss */
+.icon--book:before {
+  content: "\f110"; }
+
+/* line 124, source/assets/scss/generated/_icons.scss */
+.icon--briefcase:before {
+  content: "\f1b0"; }
+
+/* line 129, source/assets/scss/generated/_icons.scss */
+.icon--calendar-full:before {
+  content: "\f111"; }
+
+/* line 134, source/assets/scss/generated/_icons.scss */
+.icon--calendar:before {
+  content: "\f112"; }
+
+/* line 139, source/assets/scss/generated/_icons.scss */
+.icon--campus:before {
+  content: "\f113"; }
+
+/* line 144, source/assets/scss/generated/_icons.scss */
+.icon--checkbox-form:before {
+  content: "\f114"; }
+
+/* line 149, source/assets/scss/generated/_icons.scss */
+.icon--checkbox-off:before, .form-check > .icon:before, .form-check > p.asterisc:before, .form-check > .select--custom:before, .select--custom--dropdown .form-check > .select--custom--dropdown__content:before, .form-inline-check > .icon:before, .form-inline-check > p.asterisc:before, .form-inline-check > .select--custom:before, .select--custom--dropdown .form-inline-check > .select--custom--dropdown__content:before {
+  content: "\f115"; }
+
+/* line 154, source/assets/scss/generated/_icons.scss */
+.icon--checkbox-on:before, .form-radio label input[type="checkbox"]:checked + .icon:before, .form-radio label input[type="checkbox"]:checked + p.asterisc:before, .form-radio label input[type="checkbox"]:checked + .select--custom:before, .form-radio label .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-radio label input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .form-inline-radio label input[type="checkbox"]:checked + .icon:before, .form-inline-radio label input[type="checkbox"]:checked + p.asterisc:before, .form-inline-radio label input[type="checkbox"]:checked + .select--custom:before, .form-inline-radio label .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-radio label input[type="checkbox"]:checked + .select--custom--dropdown__content:before,
+.form-check label input[type="checkbox"]:checked + .icon:before, .form-check label input[type="checkbox"]:checked + p.asterisc:before, .form-check label input[type="checkbox"]:checked + .select--custom:before, .form-check label .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-check label input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .form-inline-check label input[type="checkbox"]:checked + .icon:before, .form-inline-check label input[type="checkbox"]:checked + p.asterisc:before, .form-inline-check label input[type="checkbox"]:checked + .select--custom:before, .form-inline-check label .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-check label input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .form-radio--extended .form-input input[type="checkbox"]:checked + .icon:before, .form-radio--extended .form-input input[type="checkbox"]:checked + p.asterisc:before, .form-radio--extended .form-input input[type="checkbox"]:checked + .select--custom:before, .form-radio--extended .form-input .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-radio--extended .form-input input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .form-inline-radio--extended .form-input input[type="checkbox"]:checked + .icon:before, .form-inline-radio--extended .form-input input[type="checkbox"]:checked + p.asterisc:before, .form-inline-radio--extended .form-input input[type="checkbox"]:checked + .select--custom:before, .form-inline-radio--extended .form-input .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-radio--extended .form-input input[type="checkbox"]:checked + .select--custom--dropdown__content:before,
+.form-check--extended .form-input input[type="checkbox"]:checked + .icon:before, .form-check--extended .form-input input[type="checkbox"]:checked + p.asterisc:before, .form-check--extended .form-input input[type="checkbox"]:checked + .select--custom:before, .form-check--extended .form-input .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-check--extended .form-input input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .form-inline-check--extended .form-input input[type="checkbox"]:checked + .icon:before, .form-inline-check--extended .form-input input[type="checkbox"]:checked + p.asterisc:before, .form-inline-check--extended .form-input input[type="checkbox"]:checked + .select--custom:before, .form-inline-check--extended .form-input .select--custom--dropdown input[type="checkbox"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-check--extended .form-input input[type="checkbox"]:checked + .select--custom--dropdown__content:before {
+  content: "\f116"; }
+
+/* line 159, source/assets/scss/generated/_icons.scss */
+.icon--checkmark-double:before {
+  content: "\f117"; }
+
+/* line 164, source/assets/scss/generated/_icons.scss */
+.icon--checkmark:before {
+  content: "\f118"; }
+
+/* line 169, source/assets/scss/generated/_icons.scss */
+.icon--classroom:before {
+  content: "\f119"; }
+
+/* line 174, source/assets/scss/generated/_icons.scss */
+.icon--clean:before {
+  content: "\f11a"; }
+
+/* line 179, source/assets/scss/generated/_icons.scss */
+.icon--clock-full:before {
+  content: "\f11b"; }
+
+/* line 184, source/assets/scss/generated/_icons.scss */
+.icon--clock:before {
+  content: "\f11c"; }
+
+/* line 189, source/assets/scss/generated/_icons.scss */
+.icon--close:before {
+  content: "\f11d"; }
+
+/* line 194, source/assets/scss/generated/_icons.scss */
+.icon--comment:before {
+  content: "\f11e"; }
+
+/* line 199, source/assets/scss/generated/_icons.scss */
+.icon--company:before {
+  content: "\f1aa"; }
+
+/* line 204, source/assets/scss/generated/_icons.scss */
+.icon--contact:before {
+  content: "\f11f"; }
+
+/* line 209, source/assets/scss/generated/_icons.scss */
+.icon--copy-full:before {
+  content: "\f120"; }
+
+/* line 214, source/assets/scss/generated/_icons.scss */
+.icon--copy:before {
+  content: "\f121"; }
+
+/* line 219, source/assets/scss/generated/_icons.scss */
+.icon--cup:before {
+  content: "\f1ab"; }
+
+/* line 224, source/assets/scss/generated/_icons.scss */
+.icon--delete-note:before {
+  content: "\f122"; }
+
+/* line 229, source/assets/scss/generated/_icons.scss */
+.icon--device:before {
+  content: "\f1ac"; }
+
+/* line 234, source/assets/scss/generated/_icons.scss */
+.icon--document-fold:before {
+  content: "\f123"; }
+
+/* line 239, source/assets/scss/generated/_icons.scss */
+.icon--document:before {
+  content: "\f124"; }
+
+/* line 244, source/assets/scss/generated/_icons.scss */
+.icon--download:before {
+  content: "\f125"; }
+
+/* line 249, source/assets/scss/generated/_icons.scss */
+.icon--edit-pencil:before {
+  content: "\f126"; }
+
+/* line 254, source/assets/scss/generated/_icons.scss */
+.icon--edit:before {
+  content: "\f127"; }
+
+/* line 259, source/assets/scss/generated/_icons.scss */
+.icon--error-disconnect:before {
+  content: "\f128"; }
+
+/* line 264, source/assets/scss/generated/_icons.scss */
+.icon--error-server:before {
+  content: "\f129"; }
+
+/* line 269, source/assets/scss/generated/_icons.scss */
+.icon--euro-circle:before {
+  content: "\f12a"; }
+
+/* line 274, source/assets/scss/generated/_icons.scss */
+.icon--event-academic:before {
+  content: "\f12b"; }
+
+/* line 279, source/assets/scss/generated/_icons.scss */
+.icon--event-circle-fill:before {
+  content: "\f12c"; }
+
+/* line 284, source/assets/scss/generated/_icons.scss */
+.icon--event-circle:before {
+  content: "\f12d"; }
+
+/* line 289, source/assets/scss/generated/_icons.scss */
+.icon--event-extern:before {
+  content: "\f12e"; }
+
+/* line 294, source/assets/scss/generated/_icons.scss */
+.icon--event-personal:before {
+  content: "\f12f"; }
+
+/* line 299, source/assets/scss/generated/_icons.scss */
+.icon--excel:before {
+  content: "\f130"; }
+
+/* line 304, source/assets/scss/generated/_icons.scss */
+.icon--exclaim-full:before {
+  content: "\f131"; }
+
+/* line 309, source/assets/scss/generated/_icons.scss */
+.icon--exclaim:before {
+  content: "\f132"; }
+
+/* line 314, source/assets/scss/generated/_icons.scss */
+.icon--exit:before {
+  content: "\f133"; }
+
+/* line 319, source/assets/scss/generated/_icons.scss */
+.icon--external-link:before {
+  content: "\f134"; }
+
+/* line 324, source/assets/scss/generated/_icons.scss */
+.icon--faq:before {
+  content: "\f135"; }
+
+/* line 329, source/assets/scss/generated/_icons.scss */
+.icon--filter-list:before {
+  content: "\f1b4"; }
+
+/* line 334, source/assets/scss/generated/_icons.scss */
+.icon--flag:before {
+  content: "\f136"; }
+
+/* line 339, source/assets/scss/generated/_icons.scss */
+.icon--folder-full:before {
+  content: "\f137"; }
+
+/* line 344, source/assets/scss/generated/_icons.scss */
+.icon--folder:before {
+  content: "\f138"; }
+
+/* line 349, source/assets/scss/generated/_icons.scss */
+.icon--forward:before {
+  content: "\f139"; }
+
+/* line 354, source/assets/scss/generated/_icons.scss */
+.icon--grade:before {
+  content: "\f13a"; }
+
+/* line 359, source/assets/scss/generated/_icons.scss */
+.icon--group:before {
+  content: "\f13b"; }
+
+/* line 364, source/assets/scss/generated/_icons.scss */
+.icon--groups-full:before {
+  content: "\f13c"; }
+
+/* line 369, source/assets/scss/generated/_icons.scss */
+.icon--groups:before {
+  content: "\f13d"; }
+
+/* line 374, source/assets/scss/generated/_icons.scss */
+.icon--heart-full:before {
+  content: "\f13e"; }
+
+/* line 379, source/assets/scss/generated/_icons.scss */
+.icon--heart:before {
+  content: "\f13f"; }
+
+/* line 384, source/assets/scss/generated/_icons.scss */
+.icon--hidden:before {
+  content: "\f140"; }
+
+/* line 389, source/assets/scss/generated/_icons.scss */
+.icon--home:before {
+  content: "\f141"; }
+
+/* line 394, source/assets/scss/generated/_icons.scss */
+.icon--info-full:before {
+  content: "\f142"; }
+
+/* line 399, source/assets/scss/generated/_icons.scss */
+.icon--info-session:before {
+  content: "\f143"; }
+
+/* line 404, source/assets/scss/generated/_icons.scss */
+.icon--info:before {
+  content: "\f144"; }
+
+/* line 409, source/assets/scss/generated/_icons.scss */
+.icon--intrauoc:before {
+  content: "\f145"; }
+
+/* line 414, source/assets/scss/generated/_icons.scss */
+.icon--lab:before {
+  content: "\f146"; }
+
+/* line 419, source/assets/scss/generated/_icons.scss */
+.icon--library-respons:before {
+  content: "\f147"; }
+
+/* line 424, source/assets/scss/generated/_icons.scss */
+.icon--library:before {
+  content: "\f148"; }
+
+/* line 429, source/assets/scss/generated/_icons.scss */
+.icon--list-full:before {
+  content: "\f149"; }
+
+/* line 434, source/assets/scss/generated/_icons.scss */
+.icon--list-simple:before {
+  content: "\f14a"; }
+
+/* line 439, source/assets/scss/generated/_icons.scss */
+.icon--list:before {
+  content: "\f14b"; }
+
+/* line 444, source/assets/scss/generated/_icons.scss */
+.icon--lock-full:before {
+  content: "\f14c"; }
+
+/* line 449, source/assets/scss/generated/_icons.scss */
+.icon--lock:before {
+  content: "\f14d"; }
+
+/* line 454, source/assets/scss/generated/_icons.scss */
+.icon--locked-full:before {
+  content: "\f14e"; }
+
+/* line 459, source/assets/scss/generated/_icons.scss */
+.icon--locked:before {
+  content: "\f14f"; }
+
+/* line 464, source/assets/scss/generated/_icons.scss */
+.icon--mail-full:before {
+  content: "\f150"; }
+
+/* line 469, source/assets/scss/generated/_icons.scss */
+.icon--mail:before {
+  content: "\f151"; }
+
+/* line 474, source/assets/scss/generated/_icons.scss */
+.icon--material-audio-full:before {
+  content: "\f152"; }
+
+/* line 479, source/assets/scss/generated/_icons.scss */
+.icon--material-audio:before {
+  content: "\f153"; }
+
+/* line 484, source/assets/scss/generated/_icons.scss */
+.icon--material-epub-full:before {
+  content: "\f154"; }
+
+/* line 489, source/assets/scss/generated/_icons.scss */
+.icon--material-epub:before {
+  content: "\f155"; }
+
+/* line 494, source/assets/scss/generated/_icons.scss */
+.icon--material-html5-full:before {
+  content: "\f156"; }
+
+/* line 499, source/assets/scss/generated/_icons.scss */
+.icon--material-html5:before {
+  content: "\f157"; }
+
+/* line 504, source/assets/scss/generated/_icons.scss */
+.icon--material-mobipocket-full:before {
+  content: "\f158"; }
+
+/* line 509, source/assets/scss/generated/_icons.scss */
+.icon--material-mobipocket:before {
+  content: "\f159"; }
+
+/* line 514, source/assets/scss/generated/_icons.scss */
+.icon--material-pdf-full:before {
+  content: "\f15a"; }
+
+/* line 519, source/assets/scss/generated/_icons.scss */
+.icon--material-pdf:before {
+  content: "\f15b"; }
+
+/* line 524, source/assets/scss/generated/_icons.scss */
+.icon--material-video-full:before {
+  content: "\f15c"; }
+
+/* line 529, source/assets/scss/generated/_icons.scss */
+.icon--material-video:before {
+  content: "\f15d"; }
+
+/* line 534, source/assets/scss/generated/_icons.scss */
+.icon--material-web-full:before {
+  content: "\f15e"; }
+
+/* line 539, source/assets/scss/generated/_icons.scss */
+.icon--material-web:before {
+  content: "\f15f"; }
+
+/* line 544, source/assets/scss/generated/_icons.scss */
+.icon--message:before {
+  content: "\f160"; }
+
+/* line 549, source/assets/scss/generated/_icons.scss */
+.icon--minus-small:before {
+  content: "\f161"; }
+
+/* line 554, source/assets/scss/generated/_icons.scss */
+.icon--mobile:before {
+  content: "\f162"; }
+
+/* line 559, source/assets/scss/generated/_icons.scss */
+.icon--move:before {
+  content: "\f163"; }
+
+/* line 564, source/assets/scss/generated/_icons.scss */
+.icon--new:before {
+  content: "\f164"; }
+
+/* line 569, source/assets/scss/generated/_icons.scss */
+.icon--news:before {
+  content: "\f165"; }
+
+/* line 574, source/assets/scss/generated/_icons.scss */
+.icon--paperwork:before {
+  content: "\f166"; }
+
+/* line 579, source/assets/scss/generated/_icons.scss */
+.icon--pause:before {
+  content: "\f167"; }
+
+/* line 584, source/assets/scss/generated/_icons.scss */
+.icon--pc:before {
+  content: "\f1ad"; }
+
+/* line 589, source/assets/scss/generated/_icons.scss */
+.icon--pdf:before {
+  content: "\f168"; }
+
+/* line 594, source/assets/scss/generated/_icons.scss */
+.icon--pencil:before {
+  content: "\f169"; }
+
+/* line 599, source/assets/scss/generated/_icons.scss */
+.icon--phone-white:before {
+  content: "\f16a"; }
+
+/* line 604, source/assets/scss/generated/_icons.scss */
+.icon--phone:before {
+  content: "\f16b"; }
+
+/* line 609, source/assets/scss/generated/_icons.scss */
+.icon--play-fill:before {
+  content: "\f16c"; }
+
+/* line 614, source/assets/scss/generated/_icons.scss */
+.icon--play-simple:before {
+  content: "\f16d"; }
+
+/* line 619, source/assets/scss/generated/_icons.scss */
+.icon--play:before, .icon--play-center:before {
+  content: "\f16e"; }
+
+/* line 624, source/assets/scss/generated/_icons.scss */
+.icon--plus-small:before {
+  content: "\f16f"; }
+
+/* line 629, source/assets/scss/generated/_icons.scss */
+.icon--plus-square:before {
+  content: "\f170"; }
+
+/* line 634, source/assets/scss/generated/_icons.scss */
+.icon--plus:before {
+  content: "\f171"; }
+
+/* line 639, source/assets/scss/generated/_icons.scss */
+.icon--pointer-maps-full:before {
+  content: "\f172"; }
+
+/* line 644, source/assets/scss/generated/_icons.scss */
+.icon--pointer-maps:before {
+  content: "\f173"; }
+
+/* line 649, source/assets/scss/generated/_icons.scss */
+.icon--portfolio:before {
+  content: "\f174"; }
+
+/* line 654, source/assets/scss/generated/_icons.scss */
+.icon--ppt:before {
+  content: "\f175"; }
+
+/* line 659, source/assets/scss/generated/_icons.scss */
+.icon--print:before {
+  content: "\f176"; }
+
+/* line 664, source/assets/scss/generated/_icons.scss */
+.icon--profile:before {
+  content: "\f177"; }
+
+/* line 669, source/assets/scss/generated/_icons.scss */
+.icon--question-mark:before {
+  content: "\f178"; }
+
+/* line 674, source/assets/scss/generated/_icons.scss */
+.icon--quote:before {
+  content: "\f179"; }
+
+/* line 679, source/assets/scss/generated/_icons.scss */
+.icon--radio-button-off:before, .form-radio > .icon:before, .form-radio > p.asterisc:before, .form-radio > .select--custom:before, .select--custom--dropdown .form-radio > .select--custom--dropdown__content:before, .form-inline-radio > .icon:before, .form-inline-radio > p.asterisc:before, .form-inline-radio > .select--custom:before, .select--custom--dropdown .form-inline-radio > .select--custom--dropdown__content:before {
+  content: "\f17a"; }
+
+/* line 684, source/assets/scss/generated/_icons.scss */
+.icon--radio-button-on:before, .form-radio label input[type="radio"]:checked + .icon:before, .form-radio label input[type="radio"]:checked + p.asterisc:before, .form-radio label input[type="radio"]:checked + .select--custom:before, .form-radio label .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-radio label input[type="radio"]:checked + .select--custom--dropdown__content:before, .form-inline-radio label input[type="radio"]:checked + .icon:before, .form-inline-radio label input[type="radio"]:checked + p.asterisc:before, .form-inline-radio label input[type="radio"]:checked + .select--custom:before, .form-inline-radio label .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-radio label input[type="radio"]:checked + .select--custom--dropdown__content:before,
+.form-check label input[type="radio"]:checked + .icon:before, .form-check label input[type="radio"]:checked + p.asterisc:before, .form-check label input[type="radio"]:checked + .select--custom:before, .form-check label .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-check label input[type="radio"]:checked + .select--custom--dropdown__content:before, .form-inline-check label input[type="radio"]:checked + .icon:before, .form-inline-check label input[type="radio"]:checked + p.asterisc:before, .form-inline-check label input[type="radio"]:checked + .select--custom:before, .form-inline-check label .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-check label input[type="radio"]:checked + .select--custom--dropdown__content:before, .form-radio--extended .form-input input[type="radio"]:checked + .icon:before, .form-radio--extended .form-input input[type="radio"]:checked + p.asterisc:before, .form-radio--extended .form-input input[type="radio"]:checked + .select--custom:before, .form-radio--extended .form-input .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-radio--extended .form-input input[type="radio"]:checked + .select--custom--dropdown__content:before, .form-inline-radio--extended .form-input input[type="radio"]:checked + .icon:before, .form-inline-radio--extended .form-input input[type="radio"]:checked + p.asterisc:before, .form-inline-radio--extended .form-input input[type="radio"]:checked + .select--custom:before, .form-inline-radio--extended .form-input .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-radio--extended .form-input input[type="radio"]:checked + .select--custom--dropdown__content:before,
+.form-check--extended .form-input input[type="radio"]:checked + .icon:before, .form-check--extended .form-input input[type="radio"]:checked + p.asterisc:before, .form-check--extended .form-input input[type="radio"]:checked + .select--custom:before, .form-check--extended .form-input .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-check--extended .form-input input[type="radio"]:checked + .select--custom--dropdown__content:before, .form-inline-check--extended .form-input input[type="radio"]:checked + .icon:before, .form-inline-check--extended .form-input input[type="radio"]:checked + p.asterisc:before, .form-inline-check--extended .form-input input[type="radio"]:checked + .select--custom:before, .form-inline-check--extended .form-input .select--custom--dropdown input[type="radio"]:checked + .select--custom--dropdown__content:before, .select--custom--dropdown .form-inline-check--extended .form-input input[type="radio"]:checked + .select--custom--dropdown__content:before {
+  content: "\f17b"; }
+
+/* line 689, source/assets/scss/generated/_icons.scss */
+.icon--refresh:before {
+  content: "\f17c"; }
+
+/* line 694, source/assets/scss/generated/_icons.scss */
+.icon--repository:before {
+  content: "\f17d"; }
+
+/* line 699, source/assets/scss/generated/_icons.scss */
+.icon--respond:before {
+  content: "\f17e"; }
+
+/* line 704, source/assets/scss/generated/_icons.scss */
+.icon--restore:before {
+  content: "\f17f"; }
+
+/* line 709, source/assets/scss/generated/_icons.scss */
+.icon--rss-social-media:before {
+  content: "\f180"; }
+
+/* line 714, source/assets/scss/generated/_icons.scss */
+.icon--rss-white:before {
+  content: "\f181"; }
+
+/* line 719, source/assets/scss/generated/_icons.scss */
+.icon--save-full:before {
+  content: "\f182"; }
+
+/* line 724, source/assets/scss/generated/_icons.scss */
+.icon--save:before {
+  content: "\f183"; }
+
+/* line 729, source/assets/scss/generated/_icons.scss */
+.icon--scroll-to:before {
+  content: "\f184"; }
+
+/* line 734, source/assets/scss/generated/_icons.scss */
+.icon--search-full:before {
+  content: "\f185"; }
+
+/* line 739, source/assets/scss/generated/_icons.scss */
+.icon--search:before {
+  content: "\f186"; }
+
+/* line 744, source/assets/scss/generated/_icons.scss */
+.icon--send-mail:before {
+  content: "\f187"; }
+
+/* line 749, source/assets/scss/generated/_icons.scss */
+.icon--settings:before {
+  content: "\f188"; }
+
+/* line 754, source/assets/scss/generated/_icons.scss */
+.icon--share:before {
+  content: "\f189"; }
+
+/* line 759, source/assets/scss/generated/_icons.scss */
+.icon--show:before {
+  content: "\f18a"; }
+
+/* line 764, source/assets/scss/generated/_icons.scss */
+.icon--smiley:before {
+  content: "\f18b"; }
+
+/* line 769, source/assets/scss/generated/_icons.scss */
+.icon--social-facebook:before {
+  content: "\f18c"; }
+
+/* line 774, source/assets/scss/generated/_icons.scss */
+.icon--social-flickr:before {
+  content: "\f18d"; }
+
+/* line 779, source/assets/scss/generated/_icons.scss */
+.icon--social-instagram:before {
+  content: "\f18e"; }
+
+/* line 784, source/assets/scss/generated/_icons.scss */
+.icon--social-linkedin:before {
+  content: "\f18f"; }
+
+/* line 789, source/assets/scss/generated/_icons.scss */
+.icon--social-media-2:before {
+  content: "\f190"; }
+
+/* line 794, source/assets/scss/generated/_icons.scss */
+.icon--social-media-3:before {
+  content: "\f191"; }
+
+/* line 799, source/assets/scss/generated/_icons.scss */
+.icon--social-spotify:before {
+  content: "\f192"; }
+
+/* line 804, source/assets/scss/generated/_icons.scss */
+.icon--social-twitter-white:before {
+  content: "\f193"; }
+
+/* line 809, source/assets/scss/generated/_icons.scss */
+.icon--social-twitter:before {
+  content: "\f194"; }
+
+/* line 814, source/assets/scss/generated/_icons.scss */
+.icon--social-vimeo:before {
+  content: "\f195"; }
+
+/* line 819, source/assets/scss/generated/_icons.scss */
+.icon--social-whatsapp:before {
+  content: "\f196"; }
+
+/* line 824, source/assets/scss/generated/_icons.scss */
+.icon--social-x:before {
+  content: "\f1b1"; }
+
+/* line 829, source/assets/scss/generated/_icons.scss */
+.icon--social-youtube:before {
+  content: "\f197"; }
+
+/* line 834, source/assets/scss/generated/_icons.scss */
+.icon--speed:before {
+  content: "\f198"; }
+
+/* line 839, source/assets/scss/generated/_icons.scss */
+.icon--stop:before {
+  content: "\f199"; }
+
+/* line 844, source/assets/scss/generated/_icons.scss */
+.icon--subcategory:before {
+  content: "\f19a"; }
+
+/* line 849, source/assets/scss/generated/_icons.scss */
+.icon--subscription:before {
+  content: "\f19b"; }
+
+/* line 854, source/assets/scss/generated/_icons.scss */
+.icon--support:before {
+  content: "\f19c"; }
+
+/* line 859, source/assets/scss/generated/_icons.scss */
+.icon--timer:before {
+  content: "\f1ae"; }
+
+/* line 864, source/assets/scss/generated/_icons.scss */
+.icon--training-offer:before {
+  content: "\f19d"; }
+
+/* line 869, source/assets/scss/generated/_icons.scss */
+.icon--translation:before {
+  content: "\f19e"; }
+
+/* line 874, source/assets/scss/generated/_icons.scss */
+.icon--trash:before {
+  content: "\f19f"; }
+
+/* line 879, source/assets/scss/generated/_icons.scss */
+.icon--triangle-left:before {
+  content: "\f1a0"; }
+
+/* line 884, source/assets/scss/generated/_icons.scss */
+.icon--triangle-right:before {
+  content: "\f1a1"; }
+
+/* line 889, source/assets/scss/generated/_icons.scss */
+.icon--tutorship:before {
+  content: "\f1a2"; }
+
+/* line 894, source/assets/scss/generated/_icons.scss */
+.icon--university:before {
+  content: "\f1af"; }
+
+/* line 899, source/assets/scss/generated/_icons.scss */
+.icon--user-simple:before {
+  content: "\f1a3"; }
+
+/* line 904, source/assets/scss/generated/_icons.scss */
+.icon--user:before {
+  content: "\f1a4"; }
+
+/* line 909, source/assets/scss/generated/_icons.scss */
+.icon--volume:before {
+  content: "\f1a5"; }
+
+/* line 914, source/assets/scss/generated/_icons.scss */
+.icon--vote:before {
+  content: "\f1a6"; }
+
+/* line 919, source/assets/scss/generated/_icons.scss */
+.icon--word:before {
+  content: "\f1a7"; }
+
+/* line 924, source/assets/scss/generated/_icons.scss */
+.icon--write:before {
+  content: "\f1a8"; }
+
+/* line 929, source/assets/scss/generated/_icons.scss */
+.icon--zhamburguer:before {
+  content: "\f1a9"; }
+
+/* line 2, source/assets/scss/not-gef/_icons.scss */
+p.asterisc {
+  padding-left: calc(1.937rem + .5rem);
+  position: relative; }
+  /* line 6, source/assets/scss/not-gef/_icons.scss */
+  p.asterisc:before {
+    top: 0;
+    left: 0;
+    position: absolute; }
+
+/* line 4, source/assets/scss/components/_icons.scss */
+.icon, p.asterisc:before, .select--custom:before, .select--custom--dropdown .select--custom--dropdown__content:before, .custom-select::after {
+  text-decoration: none;
+  font-size: 1.937rem; }
+
+/* line 11, source/assets/scss/components/_icons.scss */
+h1 .icon, h1 p.asterisc:before, h1 .select--custom:before, h1 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h1 .select--custom--dropdown__content:before, h1 .custom-select::after, h2 .icon, h2 p.asterisc:before, h2 .select--custom:before, h2 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h2 .select--custom--dropdown__content:before, h2 .custom-select::after, h3 .icon, h3 p.asterisc:before, h3 .select--custom:before, h3 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h3 .select--custom--dropdown__content:before, h3 .custom-select::after, h4 .icon, h4 p.asterisc:before, h4 .select--custom:before, h4 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h4 .select--custom--dropdown__content:before, h4 .custom-select::after, h5 .icon, h5 p.asterisc:before, h5 .select--custom:before, h5 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h5 .select--custom--dropdown__content:before, h5 .custom-select::after, h6 .icon, h6 p.asterisc:before, h6 .select--custom:before, h6 .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown h6 .select--custom--dropdown__content:before, h6 .custom-select::after {
+  font-size: 100%; }
+
+/* line 17, source/assets/scss/components/_icons.scss */
+.icon--before {
+  margin-right: .5rem; }
+
+/* line 20, source/assets/scss/components/_icons.scss */
+.icon--after {
+  margin-left: .5rem; }
+
+/* line 24, source/assets/scss/components/_icons.scss */
+[class^="icon--social"], [class*=" icon--social"] {
+  font-size: 1.6rem; }
+  /* line 26, source/assets/scss/components/_icons.scss */
+  [class^="icon--social"]:not(:last-child), [class*=" icon--social"]:not(:last-child) {
+    margin-right: 0.75rem; }
+
+/* line 31, source/assets/scss/components/_icons.scss */
+.icon--social {
+  font-size: 1.6rem; }
+  /* line 33, source/assets/scss/components/_icons.scss */
+  .icon--social:not(:last-child) {
+    margin-right: 0.75rem; }
+
+/* line 39, source/assets/scss/components/_icons.scss */
+.icon--big {
+  font-size: 4.9rem; }
+
+/* line 42, source/assets/scss/components/_icons.scss */
+.icon--small {
+  font-size: 1.3rem; }
+
+/* line 45, source/assets/scss/components/_icons.scss */
+.icon--xsmall {
+  font-size: 1.1rem; }
+
+/* line 49, source/assets/scss/components/_icons.scss */
+.icon--big-default {
+  font-size: 4.4rem; }
+
+/* line 52, source/assets/scss/components/_icons.scss */
+.icon--normal-default {
+  font-size: 3.4rem; }
+
+/* line 55, source/assets/scss/components/_icons.scss */
+.icon--small-default {
+  font-size: 1.75rem; }
+
+/* line 59, source/assets/scss/components/_icons.scss */
+.icon--normal-arrows {
+  font-size: 1.2rem;
+  font-weight: 600; }
+
+/* line 63, source/assets/scss/components/_icons.scss */
+.icon--big-arrows {
+  font-size: 2.4375rem;
+  font-weight: 400; }
+
+/* line 67, source/assets/scss/components/_icons.scss */
+.icon--small-arrows {
+  font-size: 0.875rem;
+  font-weight: 400; }
+
+/*.icon--big-button{
+	font-size: $icon-big-button-size;
+	width: 14px;
+  height: 14px;
+  line-height: 15px;
+  text-indent: -5px;
+}
+.icon--normal-button{
+	font-size: $icon-normal-button-size;
+	width: 14px;
+  height: 14px;
+  line-height: 15px;
+  text-indent: -5px;
+}
+.icon--small-button{
+	font-size: $icon-small-button-size;
+	width: 14px;
+  height: 14px;
+  line-height: 15px;
+  text-indent: -5px;
+}*/
+/*.icon--big-link{
+	font-size: $icon-big-link-size;
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: -5px;
+}
+.icon--normal-link{
+	font-size: $icon-normal-link-size;
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: -5px;
+}
+.icon--small-link{
+	font-size: $icon-small-link-size;
+	width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-indent: -5px;
+}*/
+/*.icon--rss-normal{
+	font-size: $icon-normal-link-size;
+	width: 20px;
+    height: 20px;
+    line-height: 16px;
+    text-indent: 4px;
+}
+.icon--share-small {
+	font-size: $icon-side-size-1;
+	width: 27px;
+    height: 24px;
+    text-indent: -13px;
+    line-height: 0;
+    right: 0 !important;
+    top: auto !important;
+    vertical-align: bottom;
+}
+.icon--book-small {
+	font-size: $icon-side-size-1;
+	width: 27px;
+    height: 24px;
+    text-indent: -13px;
+    line-height: 20px;
+    right: 0 !important;
+    top: auto !important;
+    vertical-align: bottom;
+}
+.icon--user-small {
+	font-size: $icon-side-size-2;
+	top: auto !important;
+	vertical-align: bottom;
+	bottom: 2px;
+    position: relative;
+}*/
+/* line 151, source/assets/scss/components/_icons.scss */
+.icon--play-big, .icon--play-center {
+  font-size: 7rem;
+  width: 100%;
+  height: 100%;
+  /*width: 93px;
+	    height: 109px;
+	    line-height: 109px;
+	    text-indent: -44px;*/ }
+
+/* line 162, source/assets/scss/components/_icons.scss */
+.icon--search-small {
+  font-size: 2.25rem;
+  /*width: 17px;
+	    height: 19px;
+	    line-height: 3px;
+	    text-indent: 0;*/ }
+
+/* line 169, source/assets/scss/components/_icons.scss */
+.icon--search-big {
+  font-size: 8rem !important;
+  /*width: 55px;
+	    height: 61px;
+	    line-height: 9px;
+	    text-indent: 0;*/ }
+
+/* line 176, source/assets/scss/components/_icons.scss */
+.icon--search-normal {
+  font-size: 2.25rem;
+  /*width: 17px;
+	    height: 19px;
+	    line-height: 3px;
+	    text-indent: 0;*/ }
+
+/* line 185, source/assets/scss/components/_icons.scss */
+.icon--campus-small {
+  font-size: 4.375rem;
+  /*width: 38px;
+	    height: 44px;
+	    line-height: 16px;
+	    text-indent: -16px;*/ }
+
+/* line 192, source/assets/scss/components/_icons.scss */
+.icon--campus-big {
+  font-size: 4.375rem;
+  /*width: 38px;
+	    height: 44px;
+	    line-height: 16px;
+	    text-indent: -16px;*/ }
+
+/* line 199, source/assets/scss/components/_icons.scss */
+.icon--campus-normal {
+  font-size: 4.375rem;
+  /* width: 38px;
+	    height: 44px;
+	    line-height: 16px;
+	    text-indent: -16px;*/ }
+
+/* line 207, source/assets/scss/components/_icons.scss */
+.icon--header--bottom {
+  position: relative;
+  font-size: 5rem;
+  /*line-height: 25px;
+    width: 64px;
+    height: 64px;
+    text-indent: -8px;*/ }
+
+/* line 215, source/assets/scss/components/_icons.scss */
+.icon--header--top {
+  position: relative;
+  font-size: 5rem;
+  /*line-height: 25px;
+    width: 64px;
+    height: 64px;
+    text-indent: -8px;*/ }
+
+/* line 223, source/assets/scss/components/_icons.scss */
+.icon--header--left {
+  position: relative;
+  font-size: 5rem;
+  /*line-height: 25px;
+    width: 64px;
+    height: 64px;
+    text-indent: -8px;*/ }
+
+/* line 231, source/assets/scss/components/_icons.scss */
+.icon--header--right {
+  position: relative;
+  font-size: 5rem;
+  /*line-height: 62px;
+    width: 64px;
+    height: 64px;
+    text-indent: -20px;*/ }
+
+/* line 240, source/assets/scss/components/_icons.scss */
+.icon--info--small {
+  font-size: 3.45rem;
+  /*width: 42px;
+	    height: 50px;
+	    line-height: 51px;
+	    text-indent: -38px;*/ }
+
+/* line 247, source/assets/scss/components/_icons.scss */
+.icon--info--big {
+  font-size: 5.875rem;
+  /*width: 50px;
+	    height: 58px;
+	    line-height: 58px;
+	    text-indent: -44px;*/ }
+
+/* line 254, source/assets/scss/components/_icons.scss */
+.icon--info--normal {
+  font-size: 5.875rem;
+  /* width: 50px;
+	    height: 58px;
+	    line-height: 58px;
+	    text-indent: -44px;*/ }
+
+/* line 263, source/assets/scss/components/_icons.scss */
+.icon--alert--small {
+  font-size: 2.8125rem;
+  /*width: 24px;
+	    height: 31px;
+	    line-height: 36px;
+	    text-indent: -22px;*/ }
+
+/* line 270, source/assets/scss/components/_icons.scss */
+.icon--alert--big {
+  font-size: 5.25rem;
+  /*width: 44px;
+	    height: 51px;
+	    line-height: 53px;
+	    text-indent: -40px;*/ }
+
+/* line 277, source/assets/scss/components/_icons.scss */
+.icon--alert--normal {
+  font-size: 5.25rem;
+  /*width: 44px;
+	    height: 51px;
+	    line-height: 53px;
+	    text-indent: -40px;*/ }
+
+/* line 286, source/assets/scss/components/_icons.scss */
+.icon--book--open-registration--small {
+  font-size: 3.6rem;
+  line-height: 46px;
+  text-indent: -5px;
+  /*width: 54px;
+	  height: 48px;
+	  line-height: 49px;
+	  text-indent: -28px;*/ }
+
+/* line 295, source/assets/scss/components/_icons.scss */
+.icon--book--open-registration--big {
+  font-size: 5.5rem;
+  line-height: 71px;
+  text-indent: -5px;
+  /*width: 79px;
+	  height: 72px;
+	  text-indent: -42px;*/ }
+
+/* line 303, source/assets/scss/components/_icons.scss */
+.icon--book--open-registration--normal {
+  font-size: 5.5rem;
+  line-height: 71px;
+  text-indent: -5px;
+  /*width: 79px;
+	  height: 72px;
+	  line-height: 71px;
+	  text-indent: -42px;*/ }
+
+/*
+.icon--zhamburguer {
+	font-size: $icon-hamburguer-size;
+    width: 28px;
+    height: 30px;
+    line-height: 20px;
+    text-indent: -22px;
+}*/
+/* line 321, source/assets/scss/components/_icons.scss */
+.icon--pleft {
+  position: relative;
+  float: left;
+  left: -10px;
+  margin: auto; }
+
+/* line 327, source/assets/scss/components/_icons.scss */
+.icon--pcenter {
+  position: relative;
+  left: 0;
+  margin: auto; }
+
+/* line 332, source/assets/scss/components/_icons.scss */
+.icon--pright {
+  position: relative;
+  float: right;
+  right: -10px;
+  margin: auto; }
+
+/*
+.icon--exit {
+	font-size: $icon-normal-font-size;
+	width: 26px;
+	height: 30px;
+	line-height: 22px;
+	text-indent: -22px;
+}
+
+
+$icon-space-2-move: -12px;
+.icon-header--bottom-2-center{
+	position: relative;
+	top: $icon-space-2-move;
+	right: $icon-space-2-move;
+}
+
+.icon-header--top-2-center{
+	position: relative;
+	bottom: $icon-space-2-move;
+	right: $icon-space-2-move;
+}
+
+.icon--header{
+	margin-top: -(($spacer)/2);
+	&.icon--calendar{
+		@extend .icon-header--bottom-2-center;
+	}
+	&.icon--lab{
+		@extend .icon-header--top-2-center;
+	}
+	&.icon--training-offer{
+		@extend .icon-header--bottom-2-center;
+	}
+	&.icon--pdf{
+		@extend .icon-header--bottom-2-center;
+		top: -7px;
+		right: -5px;
+	}
+}
+
+.icon--center{
+	&.icon--share {
+		@extend .icon-header--bottom-2-center;
+		top: -7px;
+		right: 2px;
+	}
+	&.icon--book {
+		position: relative;
+		right: $spacer;
+	}
+}*/
+/* line 391, source/assets/scss/components/_icons.scss */
+.icon-card-right-top {
+  position: absolute;
+  top: -10px;
+  right: -7px; }
+
+/* line 4, source/assets/scss/components/_iconimages.scss */
+.icon.icon--filter-list-off:before, p.icon--filter-list-off.asterisc:before, .icon--filter-list-off.select--custom:before, .select--custom--dropdown .icon--filter-list-off.select--custom--dropdown__content:before {
+  background: url("../iconimages/filter-list-off.svg") no-repeat center center;
+  background-size: 32px;
+  content: '';
+  display: table;
+  height: 32px;
+  margin: 0 auto;
+  width: 32px; }
+
+/* line 13, source/assets/scss/components/_iconimages.scss */
+.icon.icon--filter-list-off.icon--small:before, p.icon--filter-list-off.icon--small.asterisc:before, .icon--filter-list-off.icon--small.select--custom:before, .select--custom--dropdown .icon--filter-list-off.icon--small.select--custom--dropdown__content:before {
+  background-size: 24px;
+  height: 24px;
+  width: 24px; }
+
+/* line 4, source/assets/scss/components/_iconimages.scss */
+.icon.icon--filter-list-on:before, p.icon--filter-list-on.asterisc:before, .icon--filter-list-on.select--custom:before, .select--custom--dropdown .icon--filter-list-on.select--custom--dropdown__content:before {
+  background: url("../iconimages/filter-list-on.svg") no-repeat center center;
+  background-size: 32px;
+  content: '';
+  display: table;
+  height: 32px;
+  margin: 0 auto;
+  width: 32px; }
+
+/* line 13, source/assets/scss/components/_iconimages.scss */
+.icon.icon--filter-list-on.icon--small:before, p.icon--filter-list-on.icon--small.asterisc:before, .icon--filter-list-on.icon--small.select--custom:before, .select--custom--dropdown .icon--filter-list-on.icon--small.select--custom--dropdown__content:before {
+  background-size: 24px;
+  height: 24px;
+  width: 24px; }
+
+/*
+.icon.icon--arrow-drop-down{
+  @include icon-svg('arrow-drop-down.svg', 24px);
+}
+
+.icon.icon--arrow-drop-up{
+  @include icon-svg('arrow-drop-up.svg', 24px);
+}
+*/
+/* line 2, source/assets/scss/components/_buttons.scss */
+.btn {
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px 1em;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  min-height: 36px;
+  min-height: 2.25rem; }
+  /* line 18, source/assets/scss/components/_buttons.scss */
+  .btn .icon, .btn p.asterisc:before, .btn .select--custom:before, .btn .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .btn .select--custom--dropdown__content:before, .btn .custom-select::after {
+    font-size: 1.0625rem; }
+
+/* line 23, source/assets/scss/components/_buttons.scss */
+a.btn {
+  line-height: 1.55; }
+
+/* line 27, source/assets/scss/components/_buttons.scss */
+.btnlink {
+  font-weight: bold;
+  color: #000078;
+  text-decoration: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0; }
+  /* line 35, source/assets/scss/components/_buttons.scss */
+  .btnlink:hover {
+    color: #000078;
+    text-decoration: underline; }
+
+/* line 43, source/assets/scss/components/_buttons.scss */
+.btn--primary {
+  color: #FFFFFF;
+  background-color: #000078;
+  text-decoration: none;
+  font-weight: normal; }
+  /* line 26, source/assets/scss/mixins/_buttons.scss */
+  .btn--primary:focus, .btn--primary:active {
+    color: #FFFFFF;
+    background-color: #000078;
+    outline-color: #73EDFF;
+    outline-width: 4px;
+    outline-offset: -2px; }
+  /* line 34, source/assets/scss/mixins/_buttons.scss */
+  .btn--primary:hover {
+    color: #FFFFFF;
+    background-color: #000078;
+    text-decoration: none; }
+  /* line 43, source/assets/scss/mixins/_buttons.scss */
+  .btn--primary.disabled:focus, .btn--primary.disabled.focus, .btn--primary.disabled:hover, .btn--primary:disabled:focus, .btn--primary:disabled.focus, .btn--primary:disabled:hover,
+  fieldset[disabled] .btn--primary:focus,
+  fieldset[disabled] .btn--primary.focus,
+  fieldset[disabled] .btn--primary:hover {
+    color: inherit;
+    background-color: #000078; }
+  /* line 52, source/assets/scss/mixins/_buttons.scss */
+  .btn--primary.disabled.btn--primary:focus, .btn--primary.disabled.btn--primary.focus, .btn--primary.disabled.btn--primary:hover, .btn--primary:disabled.btn--primary:focus, .btn--primary:disabled.btn--primary.focus, .btn--primary:disabled.btn--primary:hover {
+    color: #FFFFFF; }
+  /* line 45, source/assets/scss/components/_buttons.scss */
+  .btn--primary:hover {
+    text-decoration: underline; }
+
+/* line 50, source/assets/scss/components/_buttons.scss */
+.btn--call-to-action {
+  background-color: #73EDFF;
+  padding: 0 4px 0.5em 4px;
+  border: 0 solid #000078;
+  border-width: 4px 0 4px 0;
+  font-weight: 600;
+  font-size: 1.0625rem;
+  text-align: left;
+  color: #000078; }
+  /* line 60, source/assets/scss/components/_buttons.scss */
+  .btn--call-to-action:hover, .btn--call-to-action:focus, .btn--call-to-action:active, .btn--call-to-action.is-active {
+    text-decoration: none;
+    background-color: #FFFFFF; }
+
+/* line 68, source/assets/scss/components/_buttons.scss */
+.btn--secondary {
+  color: #000078;
+  background-color: #D0D0D0;
+  text-decoration: none;
+  font-weight: normal; }
+  /* line 26, source/assets/scss/mixins/_buttons.scss */
+  .btn--secondary:focus, .btn--secondary:active {
+    color: #000078;
+    background-color: #D0D0D0;
+    outline-color: #73EDFF;
+    outline-width: 4px;
+    outline-offset: -2px; }
+  /* line 34, source/assets/scss/mixins/_buttons.scss */
+  .btn--secondary:hover {
+    color: #000078;
+    background-color: #D0D0D0;
+    text-decoration: none; }
+  /* line 43, source/assets/scss/mixins/_buttons.scss */
+  .btn--secondary.disabled:focus, .btn--secondary.disabled.focus, .btn--secondary.disabled:hover, .btn--secondary:disabled:focus, .btn--secondary:disabled.focus, .btn--secondary:disabled:hover,
+  fieldset[disabled] .btn--secondary:focus,
+  fieldset[disabled] .btn--secondary.focus,
+  fieldset[disabled] .btn--secondary:hover {
+    color: inherit;
+    background-color: #D0D0D0; }
+  /* line 52, source/assets/scss/mixins/_buttons.scss */
+  .btn--secondary.disabled.btn--primary:focus, .btn--secondary.disabled.btn--primary.focus, .btn--secondary.disabled.btn--primary:hover, .btn--secondary:disabled.btn--primary:focus, .btn--secondary:disabled.btn--primary.focus, .btn--secondary:disabled.btn--primary:hover {
+    color: #FFFFFF; }
+  /* line 70, source/assets/scss/components/_buttons.scss */
+  .btn--secondary:hover {
+    text-decoration: underline; }
+
+/* line 75, source/assets/scss/components/_buttons.scss */
+.btn--highlight {
+  color: #000078;
+  background-color: #73EDFF;
+  text-decoration: none;
+  font-weight: normal; }
+  /* line 26, source/assets/scss/mixins/_buttons.scss */
+  .btn--highlight:focus, .btn--highlight:active {
+    color: #000078;
+    background-color: #73EDFF;
+    outline-color: #73EDFF;
+    outline-width: 4px;
+    outline-offset: -2px; }
+  /* line 34, source/assets/scss/mixins/_buttons.scss */
+  .btn--highlight:hover {
+    color: #000078;
+    background-color: #73EDFF;
+    text-decoration: none; }
+  /* line 43, source/assets/scss/mixins/_buttons.scss */
+  .btn--highlight.disabled:focus, .btn--highlight.disabled.focus, .btn--highlight.disabled:hover, .btn--highlight:disabled:focus, .btn--highlight:disabled.focus, .btn--highlight:disabled:hover,
+  fieldset[disabled] .btn--highlight:focus,
+  fieldset[disabled] .btn--highlight.focus,
+  fieldset[disabled] .btn--highlight:hover {
+    color: inherit;
+    background-color: #73EDFF; }
+  /* line 52, source/assets/scss/mixins/_buttons.scss */
+  .btn--highlight.disabled.btn--primary:focus, .btn--highlight.disabled.btn--primary.focus, .btn--highlight.disabled.btn--primary:hover, .btn--highlight:disabled.btn--primary:focus, .btn--highlight:disabled.btn--primary.focus, .btn--highlight:disabled.btn--primary:hover {
+    color: #FFFFFF; }
+
+/* line 79, source/assets/scss/components/_buttons.scss */
+.btn--inverse {
+  color: #000078;
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-weight: normal; }
+  /* line 26, source/assets/scss/mixins/_buttons.scss */
+  .btn--inverse:focus, .btn--inverse:active {
+    color: #000078;
+    background-color: #FFFFFF;
+    outline-color: #73EDFF;
+    outline-width: 4px;
+    outline-offset: -2px; }
+  /* line 34, source/assets/scss/mixins/_buttons.scss */
+  .btn--inverse:hover {
+    color: #000078;
+    background-color: #FFFFFF;
+    text-decoration: none; }
+  /* line 43, source/assets/scss/mixins/_buttons.scss */
+  .btn--inverse.disabled:focus, .btn--inverse.disabled.focus, .btn--inverse.disabled:hover, .btn--inverse:disabled:focus, .btn--inverse:disabled.focus, .btn--inverse:disabled:hover,
+  fieldset[disabled] .btn--inverse:focus,
+  fieldset[disabled] .btn--inverse.focus,
+  fieldset[disabled] .btn--inverse:hover {
+    color: inherit;
+    background-color: #FFFFFF; }
+  /* line 52, source/assets/scss/mixins/_buttons.scss */
+  .btn--inverse.disabled.btn--primary:focus, .btn--inverse.disabled.btn--primary.focus, .btn--inverse.disabled.btn--primary:hover, .btn--inverse:disabled.btn--primary:focus, .btn--inverse:disabled.btn--primary.focus, .btn--inverse:disabled.btn--primary:hover {
+    color: #FFFFFF; }
+
+/* line 84, source/assets/scss/components/_buttons.scss */
+.btn--large {
+  font-size: 1.25rem; }
+
+/* line 88, source/assets/scss/components/_buttons.scss */
+.btn--small {
+  padding: 2.6666666667px 4px;
+  font-size: 14px;
+  line-height: 1; }
+
+/* line 94, source/assets/scss/components/_buttons.scss */
+.btn--block {
+  display: block;
+  width: 100%; }
+
+/* line 101, source/assets/scss/components/_buttons.scss */
+.btn.disabled, .btn[disabled] {
+  background-color: #D0D0D0;
+  color: #706F6F;
+  box-shadow: none;
+  text-decoration: none;
+  font-size: 1.0625rem;
+  min-height: 36px;
+  min-height: 2.25rem;
+  cursor: not-allowed;
+  opacity: 0.7;
+  filter: alpha(opacity=70); }
+
+/* line 114, source/assets/scss/components/_buttons.scss */
+.btn.btn--order {
+  background-color: white;
+  margin: 0;
+  padding: 8px;
+  text-align: left;
+  width: 100%; }
+  /* line 122, source/assets/scss/components/_buttons.scss */
+  .modal--filter .btn.btn--order:last-of-type {
+    border-bottom: 4px solid #000078; }
+  /* line 128, source/assets/scss/components/_buttons.scss */
+  .table__header .btn-group .btn.btn--order {
+    display: block;
+    clear: both;
+    float: left;
+    min-height: 0;
+    max-height: 18px;
+    max-width: 30px;
+    text-align: center;
+    overflow: hidden; }
+    /* line 138, source/assets/scss/components/_buttons.scss */
+    .table__header .btn-group .btn.btn--order .icon, .table__header .btn-group .btn.btn--order p.asterisc:before, .table__header .btn-group .btn.btn--order .select--custom:before, .table__header .btn-group .btn.btn--order .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .table__header .btn-group .btn.btn--order .select--custom--dropdown__content:before, .table__header .btn-group .btn.btn--order .custom-select::after {
+      vertical-align: top; }
+
+/* line 145, source/assets/scss/components/_buttons.scss */
+.btn-group {
+  display: inline-block;
+  vertical-align: middle; }
+  /* line 149, source/assets/scss/components/_buttons.scss */
+  .btn-group .btn--order {
+    font-size: 1.25rem; }
+    /* line 151, source/assets/scss/components/_buttons.scss */
+    .btn-group .btn--order .icon, .btn-group .btn--order p.asterisc:before, .btn-group .btn--order .select--custom:before, .btn-group .btn--order .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .btn-group .btn--order .select--custom--dropdown__content:before, .btn-group .btn--order .custom-select::after {
+      color: #706F6F;
+      font-size: 0.9rem; }
+      /* line 154, source/assets/scss/components/_buttons.scss */
+      .btn-group .btn--order .icon.icon--arrow-drop-down, .btn-group .btn--order p.icon--arrow-drop-down.asterisc:before, .btn-group .btn--order .icon--arrow-drop-down.select--custom:before, .btn-group .btn--order .select--custom--dropdown .icon--arrow-drop-down.select--custom--dropdown__content:before, .select--custom--dropdown .btn-group .btn--order .icon--arrow-drop-down.select--custom--dropdown__content:before, .btn-group .btn--order .icon--arrow-drop-down.custom-select::after {
+        margin-top: 3px; }
+      /* line 157, source/assets/scss/components/_buttons.scss */
+      .btn-group .btn--order .icon.icon--arrow-drop-up, .btn-group .btn--order p.icon--arrow-drop-up.asterisc:before, .btn-group .btn--order .icon--arrow-drop-up.select--custom:before, .btn-group .btn--order .select--custom--dropdown .icon--arrow-drop-up.select--custom--dropdown__content:before, .select--custom--dropdown .btn-group .btn--order .icon--arrow-drop-up.select--custom--dropdown__content:before, .btn-group .btn--order .icon--arrow-drop-up.custom-select::after {
+        margin-top: 6px; }
+  /* line 164, source/assets/scss/components/_buttons.scss */
+  .btn-group--desc .btn--order .icon--arrow-drop-down, .btn-group--desc .btn--order .icon--arrow-down, .btn-group--desc .btn--order .select--custom:before, .btn-group--desc .btn--order .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .btn-group--desc .btn--order .select--custom--dropdown__content:before {
+    color: #000078; }
+  /* line 167, source/assets/scss/components/_buttons.scss */
+  .modal .btn-group--desc .btn--order.btn--desc {
+    background-color: #F8F8F8; }
+  /* line 174, source/assets/scss/components/_buttons.scss */
+  .btn-group--asc .btn--order .icon--arrow-drop-up, .btn-group--asc .btn--order .icon--arrow-up {
+    color: #000078; }
+  /* line 178, source/assets/scss/components/_buttons.scss */
+  .modal .btn-group--asc .btn--order.btn--asc {
+    background-color: #F8F8F8; }
+  @media (max-width: 767.9px) {
+    /* line 145, source/assets/scss/components/_buttons.scss */
+    .btn-group {
+      width: 100%; } }
+
+/* line 189, source/assets/scss/components/_buttons.scss */
+.table--dynamic .table__header .table__cell-wrapper {
+  display: flex;
+  align-items: center; }
+  /* line 192, source/assets/scss/components/_buttons.scss */
+  .table--dynamic .table__header .table__cell-wrapper > .btn, .table--dynamic .table__header .table__cell-wrapper > .btn-group {
+    margin-left: 8px; }
+  /* line 196, source/assets/scss/components/_buttons.scss */
+  .table--dynamic .table__header .table__cell-wrapper > .btn--order {
+    margin-left: 4px; }
+
+/* line 2, source/assets/scss/components/_alerts.scss */
+.alert {
+  padding: 8px;
+  margin-bottom: 8px;
+  border-color: #000078;
+  background-color: #73EDFF;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert > * {
+    color: #000078; }
+
+/* line 11, source/assets/scss/components/_alerts.scss */
+.alert--error {
+  border-color: #FF0000;
+  background-color: #FFD4D4;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--error > * {
+    color: #000078; }
+
+/* line 15, source/assets/scss/components/_alerts.scss */
+.alert--info-alternative {
+  border-color: #000078;
+  background-color: #d6faff;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--info-alternative > * {
+    color: #000078; }
+
+/* line 19, source/assets/scss/components/_alerts.scss */
+.alert--success-alternative {
+  border-color: #000078;
+  background-color: #d8ffea;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--success-alternative > * {
+    color: #000078; }
+
+/* line 23, source/assets/scss/components/_alerts.scss */
+.alert--warning-alternative {
+  border-color: #000078;
+  background-color: #fbe5a2;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--warning-alternative > * {
+    color: #000078; }
+
+/* line 27, source/assets/scss/components/_alerts.scss */
+.alert--error-alternative {
+  border-color: #000078;
+  background-color: #ffd9dc;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--error-alternative > * {
+    color: #000078; }
+
+/* line 30, source/assets/scss/components/_alerts.scss */
+.alert--with--icon-big {
+  padding: 12px; }
+  /* line 32, source/assets/scss/components/_alerts.scss */
+  .alert--with--icon-big .icon, .alert--with--icon-big p.asterisc:before, .alert--with--icon-big .select--custom:before, .alert--with--icon-big .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .alert--with--icon-big .select--custom--dropdown__content:before, .alert--with--icon-big .custom-select::after {
+    position: relative;
+    font-size: 5.25rem;
+    float: right;
+    margin-right: -6px; }
+
+/* line 39, source/assets/scss/components/_alerts.scss */
+.alert--with--icon {
+  padding: 12px; }
+  /* line 41, source/assets/scss/components/_alerts.scss */
+  .alert--with--icon .icon, .alert--with--icon p.asterisc:before, .alert--with--icon .select--custom:before, .alert--with--icon .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .alert--with--icon .select--custom--dropdown__content:before, .alert--with--icon .custom-select::after {
+    float: right;
+    margin-top: -5px;
+    margin-right: -6px; }
+
+/* line 47, source/assets/scss/components/_alerts.scss */
+.alert--secondary {
+  border-color: #000078;
+  background-color: #d8ffea;
+  color: #000078; }
+  /* line 12, source/assets/scss/mixins/_alert.scss */
+  .alert--secondary > * {
+    color: #000078; }
+
+/* line 2, source/assets/scss/components/_lists.scss */
+ul, ol {
+  padding-left: 0; }
+  /* line 4, source/assets/scss/components/_lists.scss */
+  ul ul, ul ol, ol ul, ol ol {
+    margin-top: 16px;
+    padding-left: 16px; }
+  /* line 8, source/assets/scss/components/_lists.scss */
+  ul li, ol li {
+    margin-bottom: 16px; }
+
+/* line 14, source/assets/scss/components/_lists.scss */
+ul li {
+  list-style: none;
+  padding-left: 12px; }
+  /* line 18, source/assets/scss/components/_lists.scss */
+  ul li:before {
+    content: "\2022";
+    position: absolute;
+    display: inline-block;
+    font-size: 100%;
+    margin-left: -12px; }
+
+/* line 28, source/assets/scss/components/_lists.scss */
+ol li {
+  list-style-position: inside; }
+
+/* line 32, source/assets/scss/components/_lists.scss */
+.list--unstyled li, .dropdown .dropdown__content.dropdown__list li, .main-header__nav ul li {
+  padding-left: 0; }
+  /* line 34, source/assets/scss/components/_lists.scss */
+  .list--unstyled li:before, .dropdown .dropdown__content.dropdown__list li:before, .main-header__nav ul li:before {
+    margin-right: 0;
+    content: ""; }
+
+/* line 42, source/assets/scss/components/_lists.scss */
+.list--inline {
+  list-style: none;
+  padding-left: 0; }
+  /* line 45, source/assets/scss/components/_lists.scss */
+  .list--inline > li {
+    display: inline-block;
+    padding: 0 4px;
+    margin: 0; }
+    /* line 49, source/assets/scss/components/_lists.scss */
+    .list--inline > li:before {
+      content: ""; }
+    /* line 52, source/assets/scss/components/_lists.scss */
+    .list--inline > li:first-child {
+      padding-left: 0; }
+    /* line 55, source/assets/scss/components/_lists.scss */
+    .list--inline > li:last-child {
+      padding-right: 0; }
+
+/* line 63, source/assets/scss/components/_lists.scss */
+.list--inline--separators > li:after {
+  content: "-";
+  display: inline;
+  padding-left: 16px; }
+
+/* line 68, source/assets/scss/components/_lists.scss */
+.list--inline--separators > li:last-child:after {
+  content: ""; }
+
+/* line 75, source/assets/scss/components/_lists.scss */
+.list--compact > li {
+  margin: 0; }
+
+/* line 2, source/assets/scss/components/_list-groups.scss */
+.list-group, .secondary-nav {
+  padding: 0;
+  margin: 0; }
+  /* line 5, source/assets/scss/components/_list-groups.scss */
+  .list-group .list-group__item:not(:last-child), .secondary-nav .list-group__item:not(:last-child) {
+    border-bottom: 4px solid #D0D0D0; }
+  /* line 9, source/assets/scss/components/_list-groups.scss */
+  .list-group--thin .list-group__item:not(:last-child) {
+    border-bottom: 1px solid #D0D0D0; }
+
+/* line 16, source/assets/scss/components/_list-groups.scss */
+.list-group__second-level {
+  border-top: 4px solid #D0D0D0;
+  margin-bottom: -16px;
+  margin-top: 16px; }
+  /* line 20, source/assets/scss/components/_list-groups.scss */
+  .list-group__second-level .list-group__item {
+    padding-left: 16px;
+    margin-left: -16px; }
+    /* line 24, source/assets/scss/components/_list-groups.scss */
+    .list-group__second-level .list-group__item:not(:last-child) {
+      border-bottom: 1px solid #D0D0D0; }
+
+/* line 31, source/assets/scss/components/_list-groups.scss */
+.list-group--wrapped {
+  border-top: 4px solid #D0D0D0;
+  border-bottom: 4px solid #D0D0D0; }
+  /* line 34, source/assets/scss/components/_list-groups.scss */
+  .list-group--wrapped--thin {
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0; }
+
+/* line 41, source/assets/scss/components/_list-groups.scss */
+.list-group__item {
+  margin: 0 !important;
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 16px; }
+  /* line 46, source/assets/scss/components/_list-groups.scss */
+  .list-group__item:before {
+    content: "";
+    margin: 0; }
+
+/* line 53, source/assets/scss/components/_list-groups.scss */
+.list-group__item__linkblock {
+  display: block;
+  padding-top: 4px;
+  padding-bottom: 16px;
+  margin-top: -4px;
+  margin-bottom: -16px;
+  color: inherit; }
+
+
+
+
+/* line 2, source/assets/scss/components/_table.scss */
+.table {
+  width: 100%;
+  border: 0;
+  border-top: 4px solid #000078;
+  font-size: 1.25rem; }
+
+/* line 10, source/assets/scss/components/_table.scss */
+.table td,
+.table th {
+  padding: 8px; }
+
+/* line 14, source/assets/scss/components/_table.scss */
+.table--borders td {
+  border-bottom: 1px solid #000078; }
+
+/* line 19, source/assets/scss/components/_table.scss */
+.td--narrow {
+  width: 20%; }
+
+/* line 23, source/assets/scss/components/_table.scss */
+.td--nested {
+  padding-left: 8px !important; }
+
+/* line 28, source/assets/scss/components/_table.scss */
+.table__header,
+.table__footer {
+  text-align: left;
+  border-style: solid;
+  border-color: #000078; }
+
+/* line 35, source/assets/scss/components/_table.scss */
+.table__header {
+  border-width: 0 0 1px 0; }
+
+/* line 39, source/assets/scss/components/_table.scss */
+.table__footer {
+  border-width: 1px 0 0 0; }
+
+/* line 44, source/assets/scss/components/_table.scss */
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto; }
+
+/* line 51, source/assets/scss/components/_table.scss */
+.table--dynamic .btn {
+  padding: 0; }
+  /* line 54, source/assets/scss/components/_table.scss */
+  .table--dynamic .btn--order {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 1.5rem;
+    margin: 0;
+    width: 23px; }
+
+/* line 64, source/assets/scss/components/_table.scss */
+.table--dynamic .btn, .table--dynamic .table__header {
+  background-color: #F0F0F0; }
+
+/* line 69, source/assets/scss/components/_table.scss */
+.table--dynamic .table__header .table__wrapper {
+  display: inline-flex;
+  align-items: center; }
+
+/* line 76, source/assets/scss/components/_table.scss */
+.table--dynamic th[aria-sort="none"] .btn--order_content .icon:before, .table--dynamic th[aria-sort="none"] .btn--order_content p.asterisc:before, .table--dynamic th[aria-sort="none"] .btn--order_content .select--custom:before, .table--dynamic th[aria-sort="none"] .btn--order_content .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .table--dynamic th[aria-sort="none"] .btn--order_content .select--custom--dropdown__content:before {
+  color: #706F6F; }
+
+/* line 82, source/assets/scss/components/_table.scss */
+.table--dynamic th[aria-sort="descending"] .btn--order .btn--order_content:nth-child(2) .icon:before, .table--dynamic th[aria-sort="descending"] .btn--order .btn--order_content:nth-child(2) p.asterisc:before, .table--dynamic th[aria-sort="descending"] .btn--order .btn--order_content:nth-child(2) .select--custom:before, .table--dynamic th[aria-sort="descending"] .btn--order .btn--order_content:nth-child(2) .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .table--dynamic th[aria-sort="descending"] .btn--order .btn--order_content:nth-child(2) .select--custom--dropdown__content:before {
+  color: #706F6F; }
+
+/* line 88, source/assets/scss/components/_table.scss */
+.table--dynamic th[aria-sort="ascending"] .btn--order .btn--order_content:nth-child(3) .icon:before, .table--dynamic th[aria-sort="ascending"] .btn--order .btn--order_content:nth-child(3) p.asterisc:before, .table--dynamic th[aria-sort="ascending"] .btn--order .btn--order_content:nth-child(3) .select--custom:before, .table--dynamic th[aria-sort="ascending"] .btn--order .btn--order_content:nth-child(3) .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .table--dynamic th[aria-sort="ascending"] .btn--order .btn--order_content:nth-child(3) .select--custom--dropdown__content:before {
+  color: #706F6F; }
+
+/* line 94, source/assets/scss/components/_table.scss */
+.table--dynamic tbody ul {
+  margin-bottom: 0; }
+  /* line 97, source/assets/scss/components/_table.scss */
+  .table--dynamic tbody ul li {
+    padding-left: 0;
+    margin-bottom: 0; }
+    /* line 101, source/assets/scss/components/_table.scss */
+    .table--dynamic tbody ul li:before {
+      content: none; }
+
+/* line 108, source/assets/scss/components/_table.scss */
+.table--dynamic .btn--order_content {
+  clear: both;
+  display: block;
+  font-size: 0.9rem;
+  height: 14px;
+  width: 100%; }
+  /* line 115, source/assets/scss/components/_table.scss */
+  .table--dynamic .btn--order_content .icon, .table--dynamic .btn--order_content p.asterisc:before, .table--dynamic .btn--order_content .select--custom:before, .table--dynamic .btn--order_content .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .table--dynamic .btn--order_content .select--custom--dropdown__content:before, .table--dynamic .btn--order_content .custom-select::after {
+    font-size: 0.9rem; }
+
+/* line 1, source/assets/scss/components/_media.scss */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+  /* line 8, source/assets/scss/components/_media.scss */
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
+/* line 1, source/assets/scss/components/_badges.scss */
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  margin: 0 3px;
+  padding: 2px 7px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #FFFFFF;
+  background-color: #878787;
+  border-radius: 10px;
+  font-size: 83%;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 14px; }
+  /* line 16, source/assets/scss/components/_badges.scss */
+  .badge:empty {
+    display: none; }
+  /* line 20, source/assets/scss/components/_badges.scss */
+  .badge--info {
+    background-color: #4078c0; }
+  /* line 23, source/assets/scss/components/_badges.scss */
+  .badge--success {
+    background-color: #568C2F; }
+  /* line 26, source/assets/scss/components/_badges.scss */
+  .badge--warning {
+    background-color: #fec13d; }
+  /* line 29, source/assets/scss/components/_badges.scss */
+  .badge--error {
+    background-color: #FF0000; }
+  /* line 32, source/assets/scss/components/_badges.scss */
+  .badge--inverse {
+    background-color: #FFFFFF;
+    color: #000078; }
+
+/* line 41, source/assets/scss/components/_badges.scss */
+.double-badge .badge:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 1px; }
+
+/* line 46, source/assets/scss/components/_badges.scss */
+.double-badge .badge:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 1px; }
+
+/* line 2, source/assets/scss/components/_dropdown.scss */
+.dropdown {
+  position: relative; }
+  /* line 6, source/assets/scss/components/_dropdown.scss */
+  .dropdown .dropdown__content {
+    display: none; }
+  /* line 9, source/assets/scss/components/_dropdown.scss */
+  .dropdown .dropdown__content:target {
+    display: block; }
+  /* line 12, source/assets/scss/components/_dropdown.scss */
+  .dropdown .dropdown__content.dropdown__list {
+    position: absolute;
+    margin-top: 3px;
+    border: 1px solid #D0D0D0;
+    border-left: 0;
+    border-right: 0;
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-color: #000078;
+    border-radius: 0;
+    color: #000078;
+    background-color: #F0F0F0;
+    padding: 24px 7px 7px;
+    width: 192px;
+    right: -23px;
+    top: 32px;
+    left: auto;
+    min-width: 10em;
+    z-index: 11111; }
+    /* line 34, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list:before, .dropdown .dropdown__content.dropdown__list:after {
+      bottom: 100%;
+      left: 75%;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none; }
+    /* line 44, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list:after {
+      border-color: rgba(136, 183, 213, 0);
+      border-bottom-color: #F0F0F0;
+      border-width: 16px;
+      margin-left: -16px; }
+    /* line 50, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list:before {
+      border-color: rgba(0, 0, 120, 0);
+      border-bottom-color: #000078;
+      border-width: 20px;
+      margin-left: -20px; }
+    /* line 56, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list > ul {
+      margin-top: 16px; }
+    /* line 59, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list .btn--close {
+      position: absolute;
+      right: 4px;
+      top: 4px; }
+    /* line 64, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list li {
+      margin: 0; }
+      /* line 66, source/assets/scss/components/_dropdown.scss */
+      .dropdown .dropdown__content.dropdown__list li a {
+        min-height: 34px;
+        display: block;
+        padding-top: 2px;
+        color: #000078;
+        font-size: 16px;
+        border-top: 1px solid #D0D0D0; }
+        /* line 73, source/assets/scss/components/_dropdown.scss */
+        .dropdown .dropdown__content.dropdown__list li a:hover {
+          color: #706F6F;
+          text-decoration: none; }
+      /* line 78, source/assets/scss/components/_dropdown.scss */
+      .dropdown .dropdown__content.dropdown__list li.selected a {
+        font-weight: bold; }
+    /* line 82, source/assets/scss/components/_dropdown.scss */
+    .dropdown .dropdown__content.dropdown__list .is-active {
+      font-weight: bold; }
+
+/* line 89, source/assets/scss/components/_dropdown.scss */
+.fw-is-js .dropdown__content,
+.fw-is-js .dropdown__content:target {
+  display: none; }
+
+/* line 94, source/assets/scss/components/_dropdown.scss */
+.fw-is-js .is-open .dropdown__content,
+.fw-is-js .is-open .dropdown__content:target {
+  display: block; }
+
+/* line 101, source/assets/scss/components/_dropdown.scss */
+.dropdown__item {
+  padding-left: 8px;
+  padding-right: 8px;
+  white-space: nowrap; }
+
+/* line 108, source/assets/scss/components/_dropdown.scss */
+.dropdown__link {
+  display: block;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 3px 8px;
+  color: #000078;
+  text-decoration: none; }
+  /* line 115, source/assets/scss/components/_dropdown.scss */
+  .dropdown__link:hover {
+    background: #F0F0F0; }
+
+/* line 120, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__title {
+  position: relative;
+  padding: 0 0 32px;
+  margin: 0;
+  line-height: 0.95;
+  font-size: 3.4375rem; }
+
+/* line 130, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary {
+  position: relative;
+  padding: 0; }
+  /* line 134, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary .dropdown-title {
+    width: 100%;
+    text-decoration: none !important;
+    text-align: left; }
+  /* line 141, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary .dropdown-secondary-content .dropdown-secondary__option .dropdown-secondary__option__item {
+    text-align: initial !important; }
+  /* line 147, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary--animated .dropdown-secondary-content {
+    -webkit-transition-property: max-height;
+    -moz-transition-property: max-height;
+    -o-transition-property: max-height;
+    transition-property: max-height;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-delay: 0s;
+    -moz-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s; }
+  /* line 151, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title {
+    position: relative;
+    padding: 0 0 32px;
+    margin: 0;
+    line-height: 0.95;
+    font-size: 3.4375rem; }
+
+/* line 160, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__menu,
+.dropdown-secondary__submenu {
+  display: block;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+/* line 171, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__option {
+  margin: 0;
+  padding: 0; }
+  /* line 175, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__option .dropdown_title {
+    text-align: initial !important; }
+  /* line 178, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__option:before {
+    display: none; }
+
+/* line 183, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__option__item,
+.dropdown-secondary__option__subitem {
+  display: block;
+  margin: 0;
+  width: 100%;
+  border-top: 1px solid #D0D0D0;
+  text-decoration: none;
+  padding: 0 4px 12px; }
+
+/* line 193, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__menu {
+  position: absolute;
+  width: calc(100% + 16px);
+  margin-left: -8px;
+  padding: 0; }
+  /* line 199, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__menu:hover {
+    display: block; }
+  /* line 203, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__menu > li:last-child {
+    border-bottom: 1px solid #D0D0D0; }
+
+/* line 208, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__title,
+.dropdown-secondary__option__item {
+  position: relative;
+  outline: 0;
+  cursor: pointer; }
+  /* line 215, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title.is-trigger-active .is-active-hidden,
+  .dropdown-secondary__option__item.is-trigger-active .is-active-hidden {
+    display: none; }
+  /* line 219, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title.is-trigger-active .is-active-visible,
+  .dropdown-secondary__option__item.is-trigger-active .is-active-visible {
+    display: inline-block; }
+  /* line 224, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title:not(.is-trigger-active) + ul,
+  .dropdown-secondary__option__item:not(.is-trigger-active) + ul {
+    visibility: hidden; }
+  /* line 228, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title .icon, .dropdown-secondary__title p.asterisc:before, .dropdown-secondary__title .select--custom:before, .dropdown-secondary__title .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .dropdown-secondary__title .select--custom--dropdown__content:before, .dropdown-secondary__title .custom-select::after,
+  .dropdown-secondary__option__item .icon,
+  .dropdown-secondary__option__item p.asterisc:before,
+  .dropdown-secondary__option__item .select--custom:before,
+  .dropdown-secondary__option__item .select--custom--dropdown .select--custom--dropdown__content:before,
+  .select--custom--dropdown .dropdown-secondary__option__item .select--custom--dropdown__content:before,
+  .dropdown-secondary__option__item .custom-select::after {
+    font-size: 1.6875rem;
+    position: relative;
+    top: 20px;
+    right: 10px; }
+  /* line 235, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary__title .btnlink:hover,
+  .dropdown-secondary__option__item .btnlink:hover {
+    text-decoration: none; }
+
+/* line 240, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary__option__item {
+  border-top-width: 1px;
+  font-weight: bold;
+  padding-left: 4px;
+  padding-right: 4px; }
+  /* line 246, source/assets/scss/components/_dropdown.scss */
+  
+  .dropdown-secondary__option__item .icon,
+  .dropdown-secondary__option__item p.asterisc:before,
+  .dropdown-secondary__option__item .select--custom:before,
+  .dropdown-secondary__option__item .select--custom--dropdown .select--custom--dropdown__content:before,
+  .select--custom--dropdown .dropdown-secondary__option__item .select--custom--dropdown__content:before,
+  .dropdown-secondary__option__item .custom-select::after {
+    font-size: 0.875rem;
+    top: 10px;
+    right: 14px; }
+
+/* line 253, source/assets/scss/components/_dropdown.scss */
+.dropdown-secondary-content {
+  max-height: 0;
+  overflow: hidden; }
+  /* line 258, source/assets/scss/components/_dropdown.scss */
+  .dropdown-secondary-content.dropdown-secondary-content--visible {
+    max-height: 500px; }
+
+/* line 262, source/assets/scss/components/_dropdown.scss */
+.dropdown-title {
+  width: 100%;
+  text-decoration: none !important;
+  text-align: left; }
+  /* line 268, source/assets/scss/components/_dropdown.scss */
+  .dropdown-title:not(.is-trigger-active) + ul {
+    visibility: hidden; }
+
+/* line 2, source/assets/scss/components/_collapse.scss */
+.collapse__content {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition-property: max-height;
+  -moz-transition-property: max-height;
+  -o-transition-property: max-height;
+  transition-property: max-height;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s; }
+
+/* line 8, source/assets/scss/components/_collapse.scss */
+body.noscript .collapse__content {
+  max-height: 0; }
+
+/* line 12, source/assets/scss/components/_collapse.scss */
+.uncollapsed > .collapse__content {
+  /* Added for avoid hiding elements when collapse elements are already shown */
+  -webkit-animation: delay-overflow 0s 200ms;
+  -moz-animation: delay-overflow 0s 200ms;
+  -o-animation: delay-overflow 0s 200ms;
+  animation: delay-overflow 0s 200ms;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards; }
+
+@media (min-width: 768px) {
+  /* line 25, source/assets/scss/components/_collapse.scss */
+  .collapse__content.collapse__content--mobile-only {
+    max-height: 100% !important; } }
+
+/* line 32, source/assets/scss/components/_collapse.scss */
+.collapse .icon--plus--rotate {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 35, source/assets/scss/components/_collapse.scss */
+.collapse > a:hover,
+.collapse [data-collapse-trigger]:hover {
+  text-decoration: none; }
+
+/* line 41, source/assets/scss/components/_collapse.scss */
+.collapse__content {
+  position: relative; }
+
+/* line 46, source/assets/scss/components/_collapse.scss */
+.collapse--show-more {
+  font-family: uoc-sans, Arial;
+  position: relative;
+  padding-bottom: 60px; }
+  /* line 51, source/assets/scss/components/_collapse.scss */
+  .collapse--show-more a {
+    outline: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 8px 0;
+    width: 100%;
+    text-decoration: none;
+    border-top: 1px solid #F0F0F0; }
+  /* line 62, source/assets/scss/components/_collapse.scss */
+  .collapse--show-more .icon, .collapse--show-more p.asterisc:before, .collapse--show-more .select--custom:before, .collapse--show-more .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .collapse--show-more .select--custom--dropdown__content:before, .collapse--show-more .custom-select::after {
+    position: relative; }
+
+/* line 67, source/assets/scss/components/_collapse.scss */
+.collapse__wrapper {
+  padding: 0 0 1em; }
+
+/* line 72, source/assets/scss/components/_collapse.scss */
+.collapse__trigger,
+.collapse__trigger:hover {
+  text-decoration: none; }
+
+/* line 77, source/assets/scss/components/_collapse.scss */
+.collapse__trigger {
+  display: block;
+  position: relative;
+  border-top: 4px solid #D0D0D0; }
+  /* line 82, source/assets/scss/components/_collapse.scss */
+  .collapse__trigger.is-trigger-active + .collapse__content {
+    margin-top: 16px; }
+
+/* line 87, source/assets/scss/components/_collapse.scss */
+.collapse__trigger .collapse__title {
+  margin-bottom: 16px;
+  margin-right: 40px;
+  text-decoration: none;
+  cursor: pointer; }
+
+/* line 94, source/assets/scss/components/_collapse.scss */
+.collapse__trigger .icon, .collapse__trigger p.asterisc:before, .collapse__trigger .select--custom:before, .collapse__trigger .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .collapse__trigger .select--custom--dropdown__content:before, .collapse__trigger .custom-select::after {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  font-size: 1.375rem;
+  font-weight: 900; }
+
+/* line 104, source/assets/scss/components/_collapse.scss */
+.collapse-flipflap__content > a:hover,
+.collapse-flipflap__content [data-collapse-trigger]:hover {
+  text-decoration: none; }
+
+/* line 109, source/assets/scss/components/_collapse.scss */
+.collapse-flip,
+.collapse-flap {
+  display: none; }
+
+/* line 113, source/assets/scss/components/_collapse.scss */
+.collapse-flip {
+  display: block; }
+
+/* line 116, source/assets/scss/components/_collapse.scss */
+.is-flap-active .collapse-flip {
+  display: none; }
+
+/* line 119, source/assets/scss/components/_collapse.scss */
+.is-flap-active .collapse-flap {
+  display: block; }
+
+/* line 122, source/assets/scss/components/_collapse.scss */
+[data-collapse-inner] {
+  display: table;
+  width: 100%; }
+  /* line 123, source/assets/scss/components/_collapse.scss */
+  _:-ms-fullscreen, :root [data-collapse-inner] {
+    display: block; }
+
+/* line 130, source/assets/scss/components/_collapse.scss */
+.collapse:not(.uncollapsed) .collapse__content {
+  visibility: hidden; }
+
+/* line 134, source/assets/scss/components/_collapse.scss */
+button.collapse__trigger {
+  text-align: left;
+  width: 100%; }
+
+/* line 139, source/assets/scss/components/_collapse.scss */
+.btnlink[data-collapse-trigger] {
+  font-weight: inherit; }
+
+/* line 2, source/assets/scss/components/_modal.scss */
+.is-blocked-scroll {
+  overflow: hidden; }
+
+/* line 7, source/assets/scss/components/_modal.scss */
+.modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 111111;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none; }
+  /* line 19, source/assets/scss/components/_modal.scss */
+  .modal img {
+    object-fit: cover;
+    width: auto;
+    height: auto; }
+  /* line 25, source/assets/scss/components/_modal.scss */
+  .modal .embedded-video {
+    margin: 0;
+    min-width: 100%; }
+
+/* line 31, source/assets/scss/components/_modal.scss */
+.modal.is-modal-open,
+body:not(.fw-is-js) .modal:target {
+  display: block;
+  text-align: center; }
+  /* line 36, source/assets/scss/components/_modal.scss */
+  .modal.is-modal-open:before,
+  body:not(.fw-is-js) .modal:target:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%; }
+  /* line 43, source/assets/scss/components/_modal.scss */
+  .modal.is-modal-open .modal__dialog,
+  body:not(.fw-is-js) .modal:target .modal__dialog {
+    display: block;
+    text-align: left;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute; }
+
+/* line 58, source/assets/scss/components/_modal.scss */
+.is-modal-open.is-modal-big .modal__dialog {
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  top: 0;
+  left: 50%; }
+
+/* line 69, source/assets/scss/components/_modal.scss */
+.modal__title {
+  margin-right: 40px; }
+
+/* line 75, source/assets/scss/components/_modal.scss */
+.modal__dialog {
+  position: relative;
+  max-width: 60em;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 0; }
+
+/* line 85, source/assets/scss/components/_modal.scss */
+.modal__header {
+  padding: 8px 0;
+  margin: 0 8px; }
+  /* line 89, source/assets/scss/components/_modal.scss */
+  .modal__header .h1, .modal__header .h2, .modal__header .h3, .modal__header .h4, .modal__header .h5, .modal__header .h6 {
+    margin-bottom: 0; }
+
+/* line 95, source/assets/scss/components/_modal.scss */
+.modal__content {
+  background: #FFFFFF; }
+
+/* line 99, source/assets/scss/components/_modal.scss */
+.modal__body {
+  padding: 8px 8px; }
+
+/* line 104, source/assets/scss/components/_modal.scss */
+.modal__close {
+  background: none;
+  border: none;
+  position: absolute;
+  padding: 0.5rem;
+  right: 0;
+  top: -0.1rem;
+  z-index: 1; }
+  /* line 112, source/assets/scss/components/_modal.scss */
+  .modal__close:hover {
+    color: #D0D0D0; }
+
+/* line 119, source/assets/scss/components/_modal.scss */
+.modal--video .modal__dialog {
+  background: none;
+  border: none; }
+
+/* line 124, source/assets/scss/components/_modal.scss */
+.modal--video .modal__body {
+  max-width: none;
+  max-height: none;
+  width: 95vw;
+  height: auto;
+  padding: 0; }
+  @media (min-width: 992px) {
+    /* line 124, source/assets/scss/components/_modal.scss */
+    .modal--video .modal__body {
+      max-width: 848px;
+      max-height: 676px;
+      width: 44.16vw;
+      height: 46.48vh; } }
+
+/* line 142, source/assets/scss/components/_modal.scss */
+.modal--error .modal__dialog {
+  border: none; }
+
+/* line 146, source/assets/scss/components/_modal.scss */
+.modal--error .modal__header,
+.modal--error .modal__body {
+  padding: 0; }
+
+/* line 153, source/assets/scss/components/_modal.scss */
+.modal--filter.is-modal-open:before, body:not(.fw-is-js) .modal--filter:target:before {
+  display: block; }
+
+/* line 157, source/assets/scss/components/_modal.scss */
+.modal--filter .modal__header {
+  font-weight: bold;
+  font-size: 20px;
+  padding: 12px 0;
+  margin: 0 12px; }
+
+/* line 164, source/assets/scss/components/_modal.scss */
+.modal--filter .btn-group {
+  width: 100%; }
+
+/* line 168, source/assets/scss/components/_modal.scss */
+.modal--filter .btn--order {
+  display: block;
+  padding: 16px 12px; }
+
+/* line 173, source/assets/scss/components/_modal.scss */
+.modal--filter .modal__body {
+  padding: 0;
+  max-height: 280px;
+  overflow-y: auto; }
+
+/* line 180, source/assets/scss/components/_modal.scss */
+.modal--filter .modal__header .btn {
+  min-height: 0;
+  float: right; }
+
+/* line 186, source/assets/scss/components/_modal.scss */
+.modal--filter .modal__footer {
+  padding: 12px; }
+
+@media (max-width: 767.9px) {
+  /* line 191, source/assets/scss/components/_modal.scss */
+  .modal--filter .modal__body {
+    max-height: calc(100vh - 210px); }
+  /* line 195, source/assets/scss/components/_modal.scss */
+  .modal--filter .modal__dialog {
+    width: 100vw;
+    height: auto; } }
+
+@media (min-width: 768px) {
+  /* line 152, source/assets/scss/components/_modal.scss */
+  .modal--filter {
+    background-color: transparent;
+    overflow: initial;
+    position: absolute;
+    top: 37%;
+    left: 53%;
+    bottom: auto;
+    right: auto;
+    max-width: 320px;
+    width: 100%; }
+    /* line 213, source/assets/scss/components/_modal.scss */
+    .modal--filter .modal__dialog {
+      box-shadow: 4px 4px 16px lightgrey, -4px -4px 16px lightgrey;
+      border: none;
+      max-width: none; }
+    /* line 220, source/assets/scss/components/_modal.scss */
+    .modal--filter.is-modal-open .modal__dialog {
+      position: relative;
+      transform: none;
+      top: auto;
+      left: auto; } }
+
+/* line 2, source/assets/scss/components/_tabs.scss */
+.nav-tabs {
+  padding: 8px 8px 16px;
+  margin-bottom: 0;
+  list-style: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1; }
+  /* line 12, source/assets/scss/components/_tabs.scss */
+  .nav-tabs > li {
+    display: inline-block;
+    margin-bottom: 0;
+    outline: none;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: normal;
+    word-break: break-all; }
+    @media (max-width: 1199.9px) {
+      /* line 21, source/assets/scss/components/_tabs.scss */
+      .nav-tabs > li[class^='col-'] {
+        margin-left: -0.125rem;
+        margin-right: -0.125rem; } }
+    /* line 28, source/assets/scss/components/_tabs.scss */
+    .nav-tabs > li:before {
+      display: none; }
+  /* line 32, source/assets/scss/components/_tabs.scss */
+  .nav-tabs .tab {
+    display: block;
+    position: relative;
+    text-decoration: none; }
+
+/* line 39, source/assets/scss/components/_tabs.scss */
+.nav-tabs--basic .tab, .nav-tabs--alternative .tab {
+  padding-top: 4px;
+  color: #878787;
+  border-top: 2px solid #878787; }
+  /* line 43, source/assets/scss/components/_tabs.scss */
+  .nav-tabs--basic .is-active.tab, .nav-tabs--alternative .is-active.tab {
+    color: #000078;
+    border-color: #000078;
+    border-width: 4px; }
+
+/* line 52, source/assets/scss/components/_tabs.scss */
+.nav-tabs--basic > li {
+  padding-right: 8px; }
+
+/* line 62, source/assets/scss/components/_tabs.scss */
+.nav-tabs--alternative > li {
+  display: block;
+  float: left !important;
+  padding-right: 4px;
+  margin-bottom: 16px; }
+
+@media (min-width: 544px) {
+  /* line 75, source/assets/scss/components/_tabs.scss */
+  .nav-tabs--mobile-only {
+    display: none; } }
+
+/* line 80, source/assets/scss/components/_tabs.scss */
+.tab-content {
+  margin-top: -1px;
+  padding: 8px 8px;
+  overflow: auto; }
+
+/* line 86, source/assets/scss/components/_tabs.scss */
+.tab-content:not(.tab-content--mobile-only) {
+  display: none; }
+
+@media (max-width: 543.9px) {
+  /* line 91, source/assets/scss/components/_tabs.scss */
+  .tab-content--mobile-only {
+    display: none; } }
+
+@media (max-width: 991.9px) {
+  /* line 97, source/assets/scss/components/_tabs.scss */
+  .nav-tabs:not(.nav-tabs--alternative) > li {
+    float: none !important; } }
+
+/* line 102, source/assets/scss/components/_tabs.scss */
+body:not(.fw-is-js) .tab-content:target {
+  display: block; }
+
+/* line 106, source/assets/scss/components/_tabs.scss */
+.tab-content.is-active, .tab-content--mobile-only.is-active {
+  display: block; }
+
+/* line 1, source/assets/scss/components/_icon-switcher.scss */
+.is-active-visible {
+  display: none; }
+
+/* line 6, source/assets/scss/components/_icon-switcher.scss */
+.is-trigger-active .is-active-hidden {
+  display: none; }
+
+/* line 9, source/assets/scss/components/_icon-switcher.scss */
+.is-trigger-active .is-active-visible {
+  display: inline-block; }
+
+
+/* line 2, source/assets/scss/components/_sticky.scss */
+.sticky {
+  position: relative;
+  top: 0; }
+  /* line 6, source/assets/scss/components/_sticky.scss */
+  .sticky.sticky--stuck {
+    position: fixed;
+    z-index: 900;
+    top: 10px;
+    top: 0.625rem; }
+  /* line 12, source/assets/scss/components/_sticky.scss */
+  .sticky.btn {
+    max-width: 194px;
+    width: 150px;
+    overflow: hidden; }
+  /* line 18, source/assets/scss/components/_sticky.scss */
+  .sticky .icon, .sticky p.asterisc:before, .sticky .select--custom:before, .sticky .select--custom--dropdown .select--custom--dropdown__content:before, .select--custom--dropdown .sticky .select--custom--dropdown__content:before, .sticky .custom-select::after {
+    height: 3.45rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    right: -8px;
+    font-size: 3.45rem; }
+
+/* line 29, source/assets/scss/components/_sticky.scss */
+.sticky__text {
+  display: inline-block;
+  vertical-align: top;
+  white-space: normal;
+  word-break: break-all;
+  line-height: 1;
+  max-width: calc(100% - 50px); }
+
+/* line 38, source/assets/scss/components/_sticky.scss */
+.sticky--icon {
+  min-height: 64px;
+  padding: 0 0 4px 4px; }
+
+/* line 1, source/assets/scss/components/_sticky-scroll.scss */
+.sticky-scroll {
+  display: none;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  z-index: 9;
+  transform: translate(0, -50%); }
+
+/* line 1, source/assets/scss/components/_video.scss */
+.embedded-video {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: -100px;
+  margin-right: -100px;
+  max-width: 1404px;
+  min-width: calc(100% + 200px);
+  max-height: 676px; }
+
+/* line 18, source/assets/scss/components/_video.scss */
+.embedded-video__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  max-height: 676px; }
+
+/* line 29, source/assets/scss/components/_video.scss */
+.embedded-video {
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  z-index: 1; }
+
+/* line 38, source/assets/scss/components/_video.scss */
+.embedded-video__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+/* line 46, source/assets/scss/components/_video.scss */
+.full-vimeo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+/* line 54, source/assets/scss/components/_video.scss */
+.card__embedded-video {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  background: #000078;
+  z-index: -1; }
+  /* line 64, source/assets/scss/components/_video.scss */
+  .card__embedded-video .embedded-video {
+    min-width: 0;
+    margin: auto;
+    left: 0; }
+  /* line 70, source/assets/scss/components/_video.scss */
+  .card__embedded-video.visible {
+    z-index: 10; }
+  /* line 75, source/assets/scss/components/_video.scss */
+  .card__embedded-video.horizontal .embedded-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    margin: auto;
+    max-width: none;
+    min-width: 0; }
+  /* line 86, source/assets/scss/components/_video.scss */
+  .card__embedded-video.horizontal .embedded-video__iframe {
+    left: 0;
+    right: 0;
+    margin: 0 auto; }
+  /* line 93, source/assets/scss/components/_video.scss */
+  .card__embedded-video .embedded-video__iframe {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0; }
+
+/* line 1, source/assets/scss/components/_badges.scss */
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  margin: 0 3px;
+  padding: 2px 7px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #000078;
+  background-color: #878787;
+  border-radius: 10px;
+  font-size: 83%;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  font-size: 14px; }
+  /* line 16, source/assets/scss/components/_badges.scss */
+  .badge:empty {
+    display: none; }
+  /* line 20, source/assets/scss/components/_badges.scss */
+  .badge--info {
+    background-color: #4078c0; }
+  /* line 23, source/assets/scss/components/_badges.scss */
+  .badge--success {
+    background-color: #38ff90; }
+  /* line 26, source/assets/scss/components/_badges.scss */
+  .badge--warning {
+    background-color: #fec13d; }
+  /* line 29, source/assets/scss/components/_badges.scss */
+  .badge--error {
+    background-color: #FF7D87; }
+  /* line 32, source/assets/scss/components/_badges.scss */
+  .badge--inverse {
+    background-color: #FFFFFF;
+    color: #000078; }
+
+
+/* line 41, source/assets/scss/components/_badges.scss */
+.double-badge .badge:first-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 1px; }
+
+/* line 46, source/assets/scss/components/_badges.scss */
+.double-badge .badge:last-child {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 1px; }
