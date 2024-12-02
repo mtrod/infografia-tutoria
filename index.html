@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang=ca>
+<head>
+    <title>Infografia - Matrícula del grau de Psicologia</title>
+    <meta charset=UTF-8>
+    <meta name=viewport content="width=device-width" />
+    
+    <link rel=stylesheet type=text/css href=https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css> 
+    <link rel=stylesheet type=text/css href=./_/css/estils.css>
+    <link rel="stylesheet" type="text/css" href="./_/css/gef.css?v=2.3.0">
+    <script src=https://cdn.jsdelivr.net/npm/vue/dist/vue.js> </script> 
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin=anonymous></script>
+    <script src=./_/js/scripts.js> </script>
+    <script type="text/javascript" src="https://guia-frontend.uoc.edu/UOC/GEFv2/assets/js/gef.js?v=2.3.0"></script>
+</head> 
+<body>
+<div class="container" style="position:relative">
+    <div class="logo">
+        <img src="./_/uoc_masterbrand_3linies_positiu.png">
+    </div>
+    <h1>Matrícula en el grau de Psicologia</h1>
+    <div class="row" style="margin:2rem 0 3rem 0;">
+        <button class="btn btn--secondary dropdown__trigger" href="#modal-calendari" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger style="margin-right: 5px;">Calendari<span class="icon icon--calendar icon--after" aria-hidden="true"></span></button>
+        
+        <nav class="dropdown" data-dropdown>
+            <button data-dropdown-trigger style="margin-right: 5px;" class="btn btn--secondary dropdown__trigger" aria-expanded="false">Acompanyament
+                <span class="icon icon--ask-full icon--after" aria-hidden="true"></span>
+            </button>
+
+            <ul class="dropdown__content dropdown__list" data-dropdown-content>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-atencio" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Canals d'atenció</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-tutoria" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Tutoria d'inici</a></li>
+            </ul>
+        </nav>
+        <nav class="dropdown" data-dropdown>
+                <button
+                    data-dropdown-trigger
+                    class="btn btn--secondary dropdown__trigger"
+                    style="margin-right: 5px;"
+                    aria-expanded="false">
+                        Metodologia
+                    <span class="icon icon--library icon--after" aria-hidden="true"></span>
+                </button>
+
+            <ul class="dropdown__content dropdown__list" data-dropdown-content>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-metodologia" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Model d'aprenentatge</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-avaluacio" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Sistema d'avaluació</a></li>
+            </ul>
+        </nav>
+
+        <nav class="dropdown" data-dropdown>
+                <button
+                    data-dropdown-trigger
+                    class="btn btn--secondary dropdown__trigger"
+                    style="margin-right: 5px;"
+                    aria-expanded="false">
+                        Reconeixements
+                    <span class="icon icon--refresh icon--after" aria-hidden="true"></span>
+                </button>
+
+            <ul class="dropdown__content dropdown__list" data-dropdown-content>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-metodologia" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Avaluació d'Estudis Previs</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-avaluacio" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Taules d'equivalències</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="#modal-avaluacio" title="Abrir ventana modal" aria-label="Abrir ventana modal" data-modal-trigger>Crèdits branca</a></li>
+            </ul>
+        </nav>
+
+        <nav class="dropdown" data-dropdown>
+                <button
+                    data-dropdown-trigger
+                    class="btn btn--secondary dropdown__trigger"
+                    style="margin-right: 5px;"
+                    aria-expanded="false">
+                        Preus
+                    <span class="icon icon--euro-circle icon--after" aria-hidden="true"></span>
+                </button>
+
+            <ul class="dropdown__content dropdown__list" data-dropdown-content>
+                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/tramits/ca/matricula/preus_grau/index.html" target="_blank">Preus i taxes</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/acollida/ca/institucional/pindoles/descomptes_i_ajuts.html" target="_blank">Beques i descomptes</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="slide-toggles">
+        <div class="slide-toggle">
+            <div class="toggle-title">
+                <h2>1. Qüestionari d'ampliació de dades<span class="arrow"><img src="./_/arrow-up-white.svg" class=""></span></h2>
+            </div>
+            <div class="toggle-text" style="display:block;">
+                <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Ruta del Campus Virtual: <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits que pots fer/ Fes la matrícula / Emplena el qüestionari per al tutor o tutora</a>.</p>
+                <p>Amb aquest qüestionari el teu tutor o tutora et podrà conèixer millor i assessorar-te en funció de les teves necessitats. Per aquest motiu, et recomanem omplir tots els camps del qüestionari.</p>
+            </div>
+        </div>
+        <div class="content-inside content-inside-three">
+            <div class="row">
+                <div class="content">
+                    <img src="./_/1.svg">
+                    <div class="title">PRIMERES ORIENTACIONS</div>
+                    <div class="content to-open">
+                        <ul>
+                          <li>
+                            <strong>La matrícula és semestral:</strong> Pots consultar el pla de semestralització i el pla docent de cada assignatura a l’espai 
+                            <a href="#">Tots els plans d'estudis / Psicologia (pla nou)</a> del Campus Virtual.
+                          </li>
+                          <li>
+                            <strong>Nombre d’assignatures:</strong> Es recomana no matricular més de 3 assignatures el primer semestre, ja que la dedicació és d’unes 8-10 h setmanals per a cada assignatura.
+                          </li>
+                          <li>
+                            <strong>Anglès B2.1 i B2.2:</strong> aquestes assignatures no són per a principiants. Per cursar-les es recomana tenir un nivell mitjà d'anglès (equivalent a un B1). 
+                            <a href="#">Pots fer una prova de nivell</a>.
+                          </li>
+                          <li>
+                            <strong>Avaluació d’estudis previs:</strong> Si has cursat altres estudis, potser pots reconèixer alguna assignatura. A l’espai 
+                            <a href="#">Tràmits que pot fer / Avaluació d’estudis previs</a> del campus pots consultar les taules d’equivalències. 
+                            En cas de dubte, no matriculis assignatures susceptibles de reconeixement.
+                          </li>
+                          <li>
+                            <strong>Bisemestralització:</strong> Totes les assignatures de grau s'ofereixen els dos semestres, excepte e-Psicologia, que no està disponible per a nous estudiants.
+                          </li>
+                          <li>
+                             <strong>Si tens dubtes, consulta’ls amb la teva tutora.</strong>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./_/4.svg">
+                    <div class="title">ITINERARI DEL GRAU</div>
+                    <div class="content to-open">
+                        <a href="https://campus.uoc.edu/estudiant/mes-uoc/ca/universitat/plans/GR32/semestralitzacio_nou_grau_psicologia_CA.pdf" target="_blank"><img src="./_/img/semestralitzacio.png"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <img src="./_/5.svg">
+                    <div class="title">PAQUETS ESPRIA</div>
+                    <div class="content to-open">
+                        <ul>
+                            <li>Les assignatures de cada paquet s'han coordinat perquè les dates d’entrega dels treballs no coincideixin.</li>
+                            <li>Pots matricular un paquet sencer amb les tres assignatures o parcialment amb només dues assignatures.</li>
+                        </ul>
+                        <div class="bg-white">
+                            <table class="table table--borders">
+                                <thead class="table__header">
+                                    <tr>
+                                        <th>PAQUET 1</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Fonaments de recerca en psicologia (Bàsica)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Psicologia de la percepció i de l’emoció (Bàsica)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Processos psicosocials elementals (Bàsica)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="bg-white">
+                            <table class="table table--borders">
+                                <thead class="table__header">
+                                    <tr>
+                                        <th>PAQUET 2</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Psicologia del desenvolupament (Bàsica)</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Psicologia de l’atenció i la memòria (Bàsica)</td>
+                                    </tr>
+                                     <tr>
+                                        <td>Informació i competència digital en psicologia (Optativa)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--FI TRES-->
+
+        <div class="slide-toggle">
+            <div class="toggle-title">
+                <h2>2. Proposta de matrícula<span class="arrow"><img src="./_/arrow-up-white.svg" class=""></span></h2>
+            </div>
+            <div class="toggle-text" style="display:none">
+                <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Ruta del Campus Virtual: <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits que pots fer/ Fes la matrícula / Fes la proposta de matrícula</a>.</p>
+
+                <p>Mitjançant aquest pas pots triar les assignatures que vulguis cursar perquè el tutor o tutora t'assessori.</p>
+                    
+                    <div style="margin: 1rem 1rem;">
+                        <div class="box">
+                            <h3>RECOMANADA</h3>
+                            <div class="box-inner">
+                                <p>Si la teva proposta ha estat <span class="badge badge--success">RECOMANADA</span>, ja pots formalitzar la teva matrícula.</p>
+                            </div>
+                        </div>
+                        <div style="align-items:baseline;margin:-10px;z-index:99999">
+                            <img src="./_/missatge.svg">
+                        </div>
+                        <div class="box">
+                            <h3>NO RECOMANADA</h3>
+                            <div class="box-inner">
+                                <p>Si la teva proposta ha estat <span class="badge badge--error">NO RECOMANADA</span>, seria adequat que revisessis els comentaris de la tutora per tal d'ajustar la teva proposta.</p>
+                                <p>No obstant això, només es tracta d’una recomanació; si ja l’has sospesat, pots formalitzar la matrícula tot i la "no recomanació".</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <div class="slide-toggle">
+            <div class="toggle-title">
+                <h2>3. Matrícula<span class="arrow"><img src="./_/arrow-up-white.svg" class=""></span></h2>
+            </div>
+            <div class="toggle-text" style="display:none">
+                <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Ruta del Campus Virtual: <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits que pots fer/ Fes la matrícula / Formalitza la matrícula</a>.</p>
+                <p>Aquest formulari et permet formalitzar la teva matrícula en els estudis. A l'últim pas, el dels preus, hi veuràs reflectits també els descomptes i les bonificacions que et corresponguin.</p>
+                <p>Tingues en compte que, si no et matricules dins del període establert, perdràs la plaça i hauràs de sol·licitar de nou l’accés.</p>
+            </div>
+        </div>
+
+        <div class="slide-toggle">
+            <div class="toggle-title">
+                <h2>4. Documentació<span class="arrow"><img src="./_/arrow-up-white.svg" class=""></span></h2>
+            </div>
+            <div class="toggle-text" style="display:none">
+                <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Consulta quina documentació has d'aportar segons la teva via d'accés al grau a l’espai <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits / Requisits i documentació d'accés / Per fer un grau o màster universitari</a> del Campus Virtual.</p>
+                <ul>
+                    <li>Pots fer arribar la documentació de diferents maneres. Trobareu més informació al Campus: Tràmits / Requisits i documentació d'accés / Per cursar un grau o màster universitari / On i com lliuro la documentació d'accés.</li>
+                    <li>Recorda que, des de tutoria, NO es valida cap mena de documentació.</li>
+                    <li>Si no envies la documentació, tancaran el teu expedient, s'anul·larà la matrícula i perdràs l'accés a les aules. A més, l'anul·lació de la matrícula pot tenir conseqüències econòmiques.</li>
+                </ul>
+                <h3>Tens 10 dies per enviar la documentació:</h3>
+                <div class="toggle-text" style="display:none;">
+                    <div>
+                        <div class="box">
+                            <h3>DIGITALMENT</h3>
+                            <div class="box-inner">
+                                <p>Només pots enviar la documentació digitalment si té validesa electrònica:</p>
+                                <ul>
+                                    <li>Codi segur de verificació (CSV) vigent.</li>
+                                    <li>Signatura electrònica de l'organisme oficial emissor.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="align-items:baseline;margin:-10px;z-index:99999">
+                            <img src="./_/docu.svg">
+                        </div>
+                        <div class="box">
+                            <h3>PER CORREU POSTAL</h3>
+                            <div class="box-inner">
+                                <p>També pots enviar una fotocòpia compulsada per correu postal: has d'anar al centre que et va expedir el document, a un notari o a un organisme oficial amb l'original i la fotocòpia.</p>
+                                <p><span class="icon icon--info-full icon--small" aria-hidden="true"></span> Els requisits mínims d'una compulsa són: data, segell, signatura, càrrec, nom i cognom de la persona que signa. Si el document conté informació per les dues cares, s'ha de compulsar tant l'anvers com el revers.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+
+    <!--<a href="#modal-calendari" title="Abrir ventana modal" aria-label="Abrir ventana modal" role="button" data-modal-trigger class="btn btn--secondary">Lanzar modal</a>-->
+    <div data-modal id="modal-calendari" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title3" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title1" class="h4">Terminis d’accés i matrícula</h4>
+          </div>
+          <div id="modal-body1" class="modal__body">
+            <ul>
+                <li>1a assignació: del 12 de juny al 19 de desembre de 2024</li>
+                <li>2a assignació: del 9 al 14 de gener de 2025</li>
+                <li>3a assignació: del 16 al 21 de gener de 2025</li>
+                <li>El calendari és diferent si la d’accés per a més grans de 40 i 45 anys, així com accés per convalidació parcial d'estudis estrangers: el calendari dels que entreu per aquestes vies és diferent. Podeu consultar tota la informació i les dates concretes en el missatge del Tauler de l'Espai de tutoria".</li>
+            </ul>
+            <p><span class="icon icon--alert-full" aria-hidden="true"></span> Recorda que, si no et matricules dins del període establert, perdràs la teva plaça i hauràs de sol·licitar de nou l'accés.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-modal id="modal-atencio" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title2" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title2" class="h4">Canals d'atenció</h4>
+          </div>
+          <div id="modal-body2" class="modal__body">
+            <embed src="https://campus.uoc.edu/estudiant/_resources/docs/servei_atencio/canals_hub_atencio_estudiant_CA.pdf" width="800" height="400" type="application/pdf"> 
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-modal id="modal-tutoria" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title3" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title3" class="h4">Tutoria d'inici</h4>
+          </div>
+          <div id="modal-body3" class="modal__body">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7gJHm6tF5MQ?si=dQbaNFt0y0Puy7G6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-modal id="modal-metodologia" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title4" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title4" class="h4">El model d'aprenentatge de la UOC:</h4>
+          </div>
+          <div id="modal-body4" class="modal__body">
+            <ul>
+                <li>S'estructura al voltant d'un sistema de verificació dels coneixements que és virtual i que té un caràcter general, continu i formatiu.</li>
+                <li>Permet adquirir els coneixements de manera progressiva i que l'aprenentatge es retroalimenti.</li>
+                <li>És asíncron, dinàmic i flexible. No hi ha classes en línia; ni enregistrades, ni en diferit.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-modal id="modal-avaluacio" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title5" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title5" class="h4">Sistema d’avaluació</h4>
+          </div>
+          <div id="modal-body5" class="modal__body">
+            <p>És important que consultis en el pla docent de cada el seu model d’avaluació, ja que hi ha assignatures que únicament poder superar-se a través de l’avaluació contínua. Trobaràs més informació a l’espai <em>Informació d'interès abans de fer la matrícula / Tots els plans d'estudis / Psicologia (pla nou)</em> del Campus Virtual.</p>
+            <div>
+                <iframe style="margin:0 auto;" width="560" height="315" src="https://www.youtube.com/embed/7OXJ3PwJeCI?si=FAIBEn-58tY5eRR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div data-modal id="modal-convalidacions" class="modal">
+      <div role="dialog" aria-hidden="true" aria-labelledby="modal-title6" aria-describedby="modal-body3" data-modal-dialog class="modal__dialog">
+        <div class="modal__content">
+          <div class="modal__header">
+            <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
+              <span aria-hidden="true" class="icon icon--close"></span>
+            </button>
+            <h4 id="modal-title6" class="h4">Modal title</h4>
+          </div>
+          <div id="modal-body6" class="modal__body">
+            <p>Avaluació d'Estudis Previs (AEP)
+https://campus.uoc.edu/estudiant/_resources/docs/tramits/convalidacions/Manual_AEP_ca.pdf
+https://www.youtube.com/watch?v=k1QWy7AIdbs
+Taules d'equivalències
+Al consultar les Taules d'equivalències (Pas 1), a estudis de destí caldrà seleccionar l'opció que posa "Grau de Psicologia 2021" que correspon al pla d'estudis actual:
+
+Ruta Campus: Tràmits / Reconeixements i convalidacions / Avaluació d'estudis previs (AEP) / Pas 1: Consulta les taules d'equivalències
+Crèdits branca
+Els estudiants que compliu els requisits que es detallen a continuació, podeu quedar exempts de cursar algunes assignatures bàsiques del grau de Psicologia:
+
+1. Teniu un dels següents estudis: una diplomatura, llicenciatura, enginyeria o grau finalitzat un grau no finalitzat
+2. La titulació cursada és de la mateixa branca de coneixement que el grau de Psicologia de la UOC (branca de Ciències de la Salut).
+Aquest tipus de reconeixement s’anomena “reconeixement per crèdits branca”.
+ℹ️ Si podeu convalidar assignatures bàsiques per crèdits branca, heu de sol·licitar l’avaluació d’estudis previs (AEP). Recordeu que és important NO matricular cap assignatura que pugui ser susceptible de convalidació fins que no tingueu la resolució de la vostra AEP.
+Heu de tenir en compte que els reconeixements de crèdits de branca no es mostren a les taules d’equivalències, només apareixen a la resolució de l’AEP amb el concepte “Matèria Psicologia Aplicació art.13.a) RD1393/2007”.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+<!--
+    <div id="footer" style="margin-top:2rem;">
+        <div class="left">
+            <strong></strong><br>
+            
+            </div>
+            <div class="right">
+            <strong>Autoria:</strong><br>
+            UOC 2024<br><br>
+            <img src="./_/footer.svg">
+        </div>
+    </div>
+-->
+    </div> 
+        <script>
+            $(".slide-toggle").click(function() { $(this).find(".toggle-text").slideToggle();
+                $(this).find(".arrow img").toggleClass("active") 
+                $(".content .content").addClass("to-open");
+                $(".hidden-initial").slideToggle() });
+            $(".open-content").click(function() { setInterval(function() { $(".to-open").first().slideToggle().removeClass("to-open") }, 500) });
+            $(".title").click(function() { $(this).parent().find(".content").slideToggle() });
+        </script>
+    </body>
+</html>
