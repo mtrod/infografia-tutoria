@@ -111,7 +111,6 @@ img.selectable {
 }
 ul {
     margin: 0;
-    padding: 0 0 1em 1.875em;
     list-style: none
 }
 .logo {
@@ -161,7 +160,7 @@ ul {
 .toggle-text {
     display: none;
     background-color: var(--color-masterbrand-suau);
-    padding: 1rem;
+    padding: 1.5rem 2rem;
 }
 .toggle-text div {
     display: flex
@@ -344,7 +343,8 @@ th {
     display: grid;
     grid-template-rows: max-content max-content;
     place-content: stretch;
-    box-sizing: border-box
+    box-sizing: border-box;
+    padding-bottom:15px;
 }
 .content img {
     place-self: center
@@ -386,7 +386,8 @@ th {
     justify-content: center;
     padding: 0 0.625em;
     margin-top: -.25rem;
-    cursor: pointer
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .vermell {
@@ -600,4 +601,18 @@ dl.cds-dl::after {
 }
 .nonsticky {
     position: relative;
+}
+/*.spacer {
+    background-image: url("../img/spacer.svg");
+    background-repeat: repeat-y;
+    background-position: center;
+}*/
+.icon-paragraph {
+    display: flex;
+    align-items: center; 
+    gap: 8px;
+}
+
+.icon {
+    display: inline-block; 
 }
