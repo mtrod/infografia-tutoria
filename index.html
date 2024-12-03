@@ -53,7 +53,7 @@
                     class="btn btn--secondary dropdown__trigger"
                     style="margin-right: 5px;"
                     aria-expanded="false">
-                        Reconeixements
+                        Reconeixements i convalidacions
                     <span class="icon icon--refresh icon--after" aria-hidden="true"></span>
                 </button>
 
@@ -75,8 +75,8 @@
                 </button>
 
             <ul class="dropdown__content dropdown__list" data-dropdown-content>
-                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/tramits/ca/matricula/preus_grau/index.html" target="_blank">Preus i taxes</a></li>
-                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/acollida/ca/institucional/pindoles/descomptes_i_ajuts.html" target="_blank">Beques i descomptes</a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/tramits/ca/matricula/preus_grau/index.html" target="_blank">Preus i taxes <span class="icon icon--external-link icon--small" aria-hidden="true"></span></a></li>
+                <li class="dropdown__item"><a class="dropdown__link" href="https://campus.uoc.edu/estudiant/acollida/ca/institucional/pindoles/descomptes_i_ajuts.html" target="_blank">Beques i descomptes <span class="icon icon--external-link icon--small" aria-hidden="true"></span></a></li>
             </ul>
         </nav>
 
@@ -86,14 +86,21 @@
             <div class="toggle-title">
                 <h2>1. Qüestionari d'ampliació de dades<span class="arrow"><img src="assets/img/arrow-up-white.svg" class=""></span></h2>
             </div>
-            <div class="toggle-text" style="display:block;">
+
+            <div class="toggle-text" style="display:none;">
                 <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Ruta del Campus Virtual: <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits que pots fer/ Fes la matrícula / Emplena el qüestionari per al tutor o tutora</a>.</p>
                 <p>Amb aquest qüestionari el teu tutor o tutora et podrà conèixer millor i assessorar-te en funció de les teves necessitats. Per aquest motiu, et recomanem omplir tots els camps del qüestionari.</p>
             </div>
         </div>
-        <div class="content-inside content-inside-three">
+
+        <div class="slide-toggle">
+            <div class="toggle-title">
+                <h2>2. Proposta de matrícula<span class="arrow"><img src="assets/img/arrow-up-white.svg" class=""></span></h2>
+            </div>                
+        <!--INICI TRES-->
+        <div class="content-inside content-inside-three" style="display:none">
             <div class="row">
-                <div class="content">
+                <div class="content spacer">
                     <img src="assets/img/1.svg">
                     <div class="title">PRIMERES ORIENTACIONS</div>
                     <div class="content to-open">
@@ -122,15 +129,17 @@
                           </li>
                         </ul>
                     </div>
+                    
                 </div>
-                <div class="content">
+                <div class="content spacer">
                     <img src="assets/img/4.svg">
                     <div class="title">ITINERARI DEL GRAU</div>
                     <div class="content to-open">
                         <a href="https://campus.uoc.edu/estudiant/mes-uoc/ca/universitat/plans/GR32/semestralitzacio_nou_grau_psicologia_CA.pdf" target="_blank"><img src="assets/img/semestralitzacio.png"></a>
                     </div>
+                    
                 </div>
-                <div class="content">
+                <div class="content spacer">
                     <img src="assets/img/5.svg">
                     <div class="title">PAQUETS ESPRIA</div>
                     <div class="content to-open">
@@ -179,23 +188,19 @@
                             </table>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </div>
         <!--FI TRES-->
-
-        <div class="slide-toggle">
-            <div class="toggle-title">
-                <h2>2. Proposta de matrícula<span class="arrow"><img src="assets/img/arrow-up-white.svg" class=""></span></h2>
-            </div>
-            <div class="toggle-text" style="display:none">
+        <div class="toggle-text" style="display:none">
                 <p><span class="icon icon--pointer-maps-full" aria-hidden="true"></span>Ruta del Campus Virtual: <a href="https://campus.uoc.edu/webapps/cas/login?service=https://campus.uoc.edu/UOC/a/varis/miss_informacio/js/FinestraCampus.html%3Fhtm=https://campus.uoc.edu/estudiant/tramits/es/matricula/matricula_grau/index_incorporacio.html" style="text-decoration:underline; color:#000078; font-style:italic;" target="_blank">Tràmits que pots fer/ Fes la matrícula / Fes la proposta de matrícula</a>.</p>
 
-                <p>Mitjançant aquest pas pots triar les assignatures que vulguis cursar perquè el tutor o tutora t'assessori.</p>
+                <p>Mitjançant aquest pas pots triar les assignatures que vulguis cursar perquè el tutor o tutora t'assessori. Un cop feta la proposta de matrícula el teu tutor o tutora la revisarà:</p>
                     
-                    <div style="margin: 1rem 1rem;">
+                    <div>
                         <div class="box">
-                            <h3>RECOMANADA</h3>
+                            <h3>MATRÍCULA RECOMANADA</h3>
                             <div class="box-inner">
                                 <p>Si la teva proposta ha estat <span class="badge badge--success">RECOMANADA</span>, ja pots formalitzar la teva matrícula.</p>
                             </div>
@@ -204,7 +209,7 @@
                             <img src="assets/img/missatge.svg">
                         </div>
                         <div class="box">
-                            <h3>NO RECOMANADA</h3>
+                            <h3>MATRÍCULA NO RECOMANADA</h3>
                             <div class="box-inner">
                                 <p>Si la teva proposta ha estat <span class="badge badge--error">NO RECOMANADA</span>, seria adequat que revisessis els comentaris de la tutora per tal d'ajustar la teva proposta.</p>
                                 <p>No obstant això, només es tracta d’una recomanació; si ja l’has sospesat, pots formalitzar la matrícula tot i la "no recomanació".</p>
@@ -237,7 +242,6 @@
                     <li>Si no envies la documentació, tancaran el teu expedient, s'anul·larà la matrícula i perdràs l'accés a les aules. A més, l'anul·lació de la matrícula pot tenir conseqüències econòmiques.</li>
                 </ul>
                 <h3>Tens 10 dies per enviar la documentació:</h3>
-                <div class="toggle-text" style="display:none;">
                     <div>
                         <div class="box">
                             <h3>DIGITALMENT</h3>
@@ -261,11 +265,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
         </div>
     </div>
-    
 
     <!--<a href="#modal-calendari" title="Abrir ventana modal" aria-label="Abrir ventana modal" role="button" data-modal-trigger class="btn btn--secondary">Lanzar modal</a>-->
     <div data-modal id="modal-calendari" class="modal">
@@ -284,7 +285,10 @@
                 <li>3a assignació: del 16 al 21 de gener de 2025</li>
                 <li>El calendari és diferent si la d’accés per a més grans de 40 i 45 anys, així com accés per convalidació parcial d'estudis estrangers: el calendari dels que entreu per aquestes vies és diferent. Podeu consultar tota la informació i les dates concretes en el missatge del Tauler de l'Espai de tutoria".</li>
             </ul>
-            <p><span class="icon icon--alert-full" aria-hidden="true"></span> Recorda que, si no et matricules dins del període establert, perdràs la teva plaça i hauràs de sol·licitar de nou l'accés.</p>
+            <p class="icon-paragraph">
+                <span class="icon icon--alert-full" aria-hidden="true"></span>
+                Recorda que, si no et matricules dins del període establert, perdràs la teva plaça i hauràs de sol·licitar de nou l'accés.
+            </p>
           </div>
         </div>
       </div>
@@ -329,7 +333,7 @@
             <button data-modal-close title="Tancar finestra modal" aria-label="Tancar finestra modal" class="modal__close" style="cursor:pointer;">
               <span aria-hidden="true" class="icon icon--close"></span>
             </button>
-            <h4 id="modal-title4" class="h4">El model d'aprenentatge de la UOC:</h4>
+            <h4 id="modal-title4" class="h4">El model d'aprenentatge de la UOC</h4>
           </div>
           <div id="modal-body4" class="modal__body">
             <ul>
@@ -337,6 +341,7 @@
                 <li>Permet adquirir els coneixements de manera progressiva i que l'aprenentatge es retroalimenti.</li>
                 <li>És asíncron, dinàmic i flexible. No hi ha classes en línia; ni enregistrades, ni en diferit.</li>
             </ul>
+            <iframe width="100%" height="346" src="https://www.youtube.com/embed/6qPTCfLgMb4?si=kt4Zw1gmLpSpS7GQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
@@ -352,9 +357,10 @@
             <h4 id="modal-title5" class="h4">Sistema d’avaluació</h4>
           </div>
           <div id="modal-body5" class="modal__body">
-            <p>És important que consultis en el pla docent de cada el seu model d’avaluació, ja que hi ha assignatures que únicament poder superar-se a través de l’avaluació contínua. Trobaràs més informació a l’espai <em>Informació d'interès abans de fer la matrícula / Tots els plans d'estudis / Psicologia (pla nou)</em> del Campus Virtual.</p>
+            <p>És important que consultis en el pla docent de cada el seu model d’avaluació, ja que hi ha assignatures que únicament poder superar-se a través de l’avaluació contínua.</p>
+            <p>Trobaràs més informació a l’espai <em>Informació d'interès abans de fer la matrícula / Tots els plans d'estudis / Psicologia (pla nou)</em> del Campus Virtual.</p>
             <div>
-                <iframe style="margin:0 auto;" width="560" height="315" src="https://www.youtube.com/embed/7OXJ3PwJeCI?si=FAIBEn-58tY5eRR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="100%" height="346" src="https://www.youtube.com/embed/7OXJ3PwJeCI?si=FAIBEn-58tY5eRR5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -405,12 +411,17 @@ Heu de tenir en compte que els reconeixements de crèdits de branca no es mostre
 -->
     </div> 
         <script>
-            $(".slide-toggle").click(function() { $(this).find(".toggle-text").slideToggle();
-                $(this).find(".arrow img").toggleClass("active") 
-                $(".content .content").addClass("to-open");
-                $(".hidden-initial").slideToggle() });
-            $(".open-content").click(function() { setInterval(function() { $(".to-open").first().slideToggle().removeClass("to-open") }, 500) });
+            $(".slide-toggle .toggle-title").click(function(event) {
+                event.stopPropagation(); // Prevent bubbling to parent elements
+                const parent = $(this).closest(".slide-toggle"); // Get the parent .slide-toggle
+                parent.find(".toggle-text").slideToggle(); // Toggle the text
+                parent.find(".arrow img").toggleClass("active"); // Toggle the arrow state
+                parent.find(".content-inside").slideToggle();
+                $(".hidden-initial").slideToggle(); // Toggle hidden elements
+
+            });
             $(".title").click(function() { $(this).parent().find(".content").slideToggle() });
+
         </script>
     </body>
 </html>
