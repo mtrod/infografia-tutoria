@@ -73,7 +73,7 @@ a[href] {
     color: var(--color-corporatiu)
 }
 .container {
-    width: 56rem;
+    width: 58rem;
     max-width: 100%;
     margin: auto
 }
@@ -169,7 +169,7 @@ ul {
     color: var(--color-lletra-amb-fons);
     text-align: left;
     list-style: initial;
-    padding: 0 0.625em 0.625em 2.5em
+    padding: 0 0 0 1.25em;
 }
 .toggle-text p {
     padding-bottom: 1em;
@@ -614,6 +614,13 @@ dl.cds-dl::after {
 }
 
 .icon {
-    display: inline-block; 
+    display: inline-block; }
+.float-left {
+    float: left;
+    padding-right: 10px;
 }
 .iframe-video {margin-top: .75rem;}
+
+#credits-branca th, #credits-branca td{
+    width: fit-content;
+}
